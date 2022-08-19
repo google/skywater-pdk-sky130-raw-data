@@ -11,18 +11,14 @@ Experimental Data
 The experimental data in this repository is currently stored in the `.mdm` file format.
 
 
-Silicon Test Tile
------------------
+**Current** proprietary SkyWater Test Tile
+------------------------------------------
 
-The manufacturing test tile that is currently being used here has no publicly available documentation. However, with SkyWater's approval, a number of community members `are working to create public documentation <https://bit.ly/sky130-mpw1-testtile-notes>`_, including high resolution images of the manufactured silicon shown below;
-
-.. image:: docs/_static/test-tile-preview.png
-   :align: center
-   :alt: Lower resolution image of silicon test tile.
+Documentation about the existing proprietary test tile can be found in the `docs/sky130-testtile directory <./docs/sky130-testtile>`_.
 
 
-Future Test Tile Design
-~~~~~~~~~~~~~~~~~~~~~~~
+**Future** fully open source Test Tile
+--------------------------------------
 
 Google, NIST, and University of Michigan are working together to create a fully open test tile design using the `OpenFASoC generator approach <https://github.com/idea-fasoc/OpenFASOC>`_ and open source tooling. More details can be found at the following links;
 
