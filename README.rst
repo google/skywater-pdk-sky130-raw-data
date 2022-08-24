@@ -57,7 +57,7 @@ More details about the ring oscillators generator can be found `here <https://do
 .. image:: docs/sky130-testtile/gdsfactory-gen.png
    :width: 80%
    :align: center
-   :alt: line and via resistance + meshes.
+   :alt: line and via resistance + cap. and diodes meshes.
 
 * `GitHub repository with line resitance via chain generator <https://github.com/idea-fasoc/OpenFASOC/tree/main/openfasoc/generators/gdsfactory-gen/line-res_via-chain>`_
 * `GitHub repository with MIM cap. array generator <https://github.com/idea-fasoc/OpenFASOC/tree/main/openfasoc/generators/gdsfactory-gen/mimcap-array>`_
