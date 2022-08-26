@@ -14,60 +14,15 @@ The experimental data in this repository is currently stored in the `.mdm` file 
 **Current** proprietary SkyWater Test Tile
 ------------------------------------------
 
-Documentation about the existing proprietary test tile can be found in the `docs/sky130-testtile directory <./docs/sky130-testtile>`_.
+Documentation about the existing proprietary test tile can be found in the `docs/sky130-testtile-proprietary directory <./docs/sky130-testtile-proprietary>`_.
 
 
 **Future** fully open source Test Tile
 --------------------------------------
 
-Google, NIST, and University of Michigan are working together to create a fully open test tile design using the `OpenFASoC generator approach <https://github.com/idea-fasoc/OpenFASOC>`_ and open source tooling. More details can be found at the following links;
+Google, NIST, and University of Michigan are working together to create a fully open test tile design using the `OpenFASoC generator approach <https://github.com/idea-fasoc/OpenFASOC>`_ and open source tooling.
 
-.. image:: docs/sky130-testtile/resultanttestdie.png
-   :width: 80%
-   :align: center
-   :alt: Resultant test die from MPW-5.
-
-* Test Interface
-
-.. image:: docs/sky130-testtile/testinterface.png
-   :width: 70%
-   :align: center
-   :alt: Probing Card.
-
-* `GitHub repository with OpenFASoC Ring Oscillators generator <https://github.com/idea-fasoc/OpenFASOC/tree/main/openfasoc/generators/cryo-gen>`_
-
-.. image:: docs/sky130-testtile/cryo-gen.png
-   :width: 80%
-   :align: center
-   :alt: Example of Ring Osc. structures.
-
-sky130_fd_sc_hd, sky130_fd_sc_hs, sky130_fd_sc_hvl based ring osc.
-+ 
-9 additional OSU standard cell ring osc. : 12T_hs, 12T_ms, 15T_hs, 15T_ls, 15T_ms, 18T_hs, 18T_ls, 18T_ms
-
-.. image:: docs/sky130-testtile/ROs.png
-   :width: 80%
-   :align: center
-   :alt: Ring Osc. structures.
-
-More details about the ring oscillators generator can be found `here <https://docs.google.com/presentation/d/1oROHp4B55McL_V3XpsjWqH9fspBz7vrPsw5zF5Ex_8M>`_.
-
-* gdsfactory based generators which includes line and via chain resitance, MIM capacitor modules, diodes modules, etc..
-
-.. image:: docs/sky130-testtile/gdsfactory-gen.png
-   :width: 80%
-   :align: center
-   :alt: line and via resistance + cap. and diodes meshes.
-
-* `GitHub repository with line resitance via chain generator <https://github.com/idea-fasoc/OpenFASOC/tree/main/openfasoc/generators/gdsfactory-gen/line-res_via-chain>`_
-* `GitHub repository with MIM cap. array generator <https://github.com/idea-fasoc/OpenFASOC/tree/main/openfasoc/generators/gdsfactory-gen/mimcap-array>`_
-
-The first test version of this tile was included in the MPW-5 run and can be found at;
-
-* `GitHub repository with design <https://github.com/msaligane/openfasoc_cryo_caravel>`_
-* `Efabless Submission <https://platform.efabless.com/projects/741>`_
-* `Final GDS submitted to SkyWater <https://foss-eda-tools.googlesource.com/third_party/shuttle/mpw-five/slot-016/>`_
-
+Documentation about the new open test tile can be found in the `docs/sky130-testtile-open directory <./docs/sky130-testtile-open>`_.
 
 MDM File Format
 ---------------
