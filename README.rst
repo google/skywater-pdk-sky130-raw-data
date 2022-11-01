@@ -10,6 +10,9 @@ Experimental Data
 
 The experimental data in this repository is currently stored in the `.mdm` file format.
 
+**Other data**
+
+* (2022-Nov-1) New experimental data by EPFL is stored in the `.csv` format at `sky130_fd_pr/epfl <./sky130_fd_pr/epfl>`_. The corresponded notebook can be found at `notebooks/electrical_characterization_sky130_epfl.ipynb <notebooks/electrical_characterization_sky130_epfl.ipyn>`_.
 
 **Current** proprietary SkyWater Test Tile
 ------------------------------------------
