@@ -47,7 +47,7 @@ The first test version of this tile was included in the MPW-5 run and can be fou
 
 * `GitHub repository with design <https://github.com/msaligane/openfasoc_cryo_caravel>`_
 * `Efabless Submission <https://platform.efabless.com/projects/741>`_
-* `Final GDS submitted to SkyWater <https://foss-eda-tools.googlesource.com/third_party/shuttle/mpw-five/slot-016/>`_
+* `Final GDS submitted to SkyWater <https://foss-eda-tools.googlesource.com/third_party/shuttle/sky130/mpw-005/slot-016/>`_
 
 License
 =======
