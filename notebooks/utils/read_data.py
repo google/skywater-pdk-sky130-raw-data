@@ -1,6 +1,7 @@
 import os
 import os.path as op
 import pandas as pd
+import numpy as np
 from pandas import DataFrame
 from typing import Union, List, Tuple
 from strenum import StrEnum
@@ -26,7 +27,7 @@ def decode_iv_file_name(
         die, mod, idx, flavor, w, l, meas_mode, vd, vb, temp = res
         return DUTinfo(
             die=int(die), mod=mod, idx=int(idx), flavor=flavor,
-            W=float(w)*1e-9, L=float(l)*1e-9, meas_mode=meas_mode,
+            W=np.round(float(w)*1e-9, 9), L=np.round(float(l)*1e-9, 9), meas_mode=meas_mode,
             VD=float(vd.replace('V', '.')), VB=float(vb.replace('V', '.')),
             T=float(temp), VG=None
         )
@@ -35,7 +36,7 @@ def decode_iv_file_name(
         die, mod, idx, flavor, w, l, meas_mode, vg, vb, temp = res
         return DUTinfo(
             die=int(die), mod=mod, idx=int(idx), flavor=flavor,
-            W=float(w)*1e-9, L=float(l)*1e-9, meas_mode=meas_mode,
+            W=np.round(float(w)*1e-9, 9), L=np.round(float(l)*1e-9, 9), meas_mode=meas_mode,
             VG=float(vg.replace('V', '.')), VB=float(vb.replace('V', '.')),
             T=float(temp), VD=None
         )
