@@ -23,7 +23,7 @@ def plot_idvg(
     ax.set_xlabel('$V_G$ (V)')
     ax.set_ylabel('$I_D$ (A)')
     axt.set_ylabel('$I_D$ (A)')
-    ax.legend()
+    ax.legend(loc=2)
 
     return ax, axt
 
@@ -40,6 +40,6 @@ def plot_idvd(
 
     ax.set_xlabel('$V_D$ (V)')
     ax.set_ylabel('$I_D$ (A)')
-    ax.legend()
+    ax.legend(loc=0)
 
     return ax
