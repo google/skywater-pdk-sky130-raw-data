@@ -17,6 +17,12 @@ def plot_idvg(
     else:
         ax, axt = axes
 
+    try:
+        df.VS
+    except AttributeError:
+        df['VS'] = 0
+        print("Can't find VS in data, set VS = 0 V")
+
     if dev_type == 'n':
         x = df.VG - df.VS
         y = df.ID
@@ -48,6 +54,12 @@ def plot_idvd(
 ) -> Tuple[Axes, Axes]:
     if ax is None:
         ax = plt.gca()
+
+    try:
+        df.VS
+    except AttributeError:
+        df['VS'] = 0
+        print("Can't find VS in data, set VS = 0 V")
 
     if dev_type == 'n':
         x = df.VD - df.VS
