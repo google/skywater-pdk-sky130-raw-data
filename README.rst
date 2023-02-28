@@ -10,7 +10,10 @@ Experimental Data
 
 The experimental data in this repository is currently stored in the `.mdm` file format.
 
+**Other data**
 
+* (2022-Nov-1) New experimental data by EPFL is stored in the `.csv` format at `sky130_fd_pr_epfl/cells <./sky130_fd_pr_epfl/cells>`_. The corresponded notebook can be found at `notebooks/sky130_plot_epfl_data_first_meas.ipynb <./notebooks/sky130_plot_epfl_data_first_meas.ipynb>`_.
+* (2022-Feb-17) Additional measurement on nfet(2602), pfet(2605), and nshort(5290), stored at `sky130_fd_pr_epfl/cells <./sky130_fd_pr_epfl/cells>`_. The corresponding notebook can be found at `notebooks/sky130_plot_epfl_data_general.ipynb <./notebooks/sky130_plot_epfl_data_general.ipynb>`_. The measurement was performed with the homemade software and probe card.
 **Current** proprietary SkyWater Test Tile
 ------------------------------------------
 
