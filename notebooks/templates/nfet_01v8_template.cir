@@ -33,7 +33,7 @@ foreach t 25
             ****************
             ** Saving data  
             ****************
-            wrdata {{csv_path}}  @m.xn.msky130_fd_pr__nfet_01v8[vgs]  enlarge(@m.xn.msky130_fd_pr__nfet_01v8[id], vsb_vector[i])  @m.xn.msky130_fd_pr__nfet_01v8[id]
+            wrdata {{csv_path}}  @m.xn.msky130_fd_pr__nfet_01v8[vgs]  enlarge(@m.xn.msky130_fd_pr__nfet_01v8[id], vsb_vector[i])  @m.xn.msky130_fd_pr__nfet_01v8[id] 
             reset
             let vgs_counter = vgs_counter + 1
         end
