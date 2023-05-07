@@ -11,18 +11,19 @@ Xn dn gn 0 bn sky130_fd_pr__nfet_01v8 {{dimensions}}
 .control
 
 compose  vsb_vector   start=0     stop=1        step=0.9
-compose  vgs_vector   start=0     stop=1.8      step=0.36
+compose  v_vector   {{sweep_range}}
 
 set appendwrite
+shell rm -f {{csv_path}}
 define enlarge(v,val) vector(length(v))*0+val
 foreach t 25
     let i = 0
     while i < length(vsb_vector)
-        let vgs_counter = 0
-        while vgs_counter < length(vgs_vector)
+        let counter = 0
+        while counter < length(v_vector)
             option TEMP=$t
             alter vsb = vsb_vector[i]
-            alter vgs = vgs_vector[vgs_counter]
+            alter {{v_sweep}} = v_vector[counter]
 
             save  @m.xn.msky130_fd_pr__nfet_01v8[vds] @m.xn.msky130_fd_pr__nfet_01v8[vgs] @m.xn.msky130_fd_pr__nfet_01v8[id] @m.xn.msky130_fd_pr__nfet_01v8[gm]
             *******************
@@ -33,9 +34,8 @@ foreach t 25
             ****************
             ** Saving data  
             ****************
-            wrdata {{csv_path}}  @m.xn.msky130_fd_pr__nfet_01v8[vgs]  enlarge(@m.xn.msky130_fd_pr__nfet_01v8[id], vsb_vector[i])  @m.xn.msky130_fd_pr__nfet_01v8[id] 
-            reset
-            let vgs_counter = vgs_counter + 1
+            wrdata {{csv_path}}  @m.xn.msky130_fd_pr__nfet_01v8[vgs]  enlarge(@m.xn.msky130_fd_pr__nfet_01v8[id], vsb_vector[i])  @m.xn.msky130_fd_pr__nfet_01v8[id] @m.xn.msky130_fd_pr__nfet_01v8[gm] 
+            let counter = counter + 1
         end
         let i = i + 1
     end
