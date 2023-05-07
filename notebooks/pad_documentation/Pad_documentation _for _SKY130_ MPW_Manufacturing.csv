@@ -1,0 +1,1207 @@
+Mod #,Group,New Style Name,Old Style Name,Description,Pin 01,Pin 02,Pin 03,Pin 04,Pin 05,Pin 06,Pin 07,Pin 08,Pin 09,Pin 10,Pin 11,Pin 12,Die Row
+1001,2,,,Continuity Structure (10um wide metal line between all pads),short,short,short,short,short,short,short,short,short,short,short,short,1
+1002,2,,,Alignment Structure (metal lines surrounding all pads by 1.0um),,,,,,,metal,,,,,,1
+1003,1,,,n-chan field oxide FETs poly1 gate,, , ,,,,,,,,,,1
+,,,,poly1 gate w/l = 100/0.14,substrate,drain / source,gate,source / drain,gate,drain / source,,,,,,,
+,,,,poly1 gate w/l = 1000/0.17,substrate,,,,,,,drain / source,gate,source / drain,gate,drain / source,
+1004,1,,,n-chan field oxide FETs metal1 gate,,,,,,,,,,,,,1
+,,,,metal1 gate w/l = 1000/0.24,substrate,drain/ source,gate 1,drain 1,gate 2,drain 2,,,,,,,
+,,,,metal1 gate w/l = 1000/0.27,substrate,,,,,,,source,gate 1,drain 1,gate 2,drain 2,
+1005,2,,,n+ resistor 320.73 / 12.8 : 25.06 sq,n+ res, , , ,n+ res,substrate,,,,,,,1
+,,res_generic_nw,nwell_res,n-well resistor 24.505 / 24.87 : 0.99 sq,, ,n-well res,n-well res,,substrate,,,,,,,
+,2,,,p+ resistor 320.67 / 12.8 : 25.05 sq,,,,,,,p+ res,n-well, , ,p+ res, ,
+,,,,p+ resistor - 4 terminal measurement 40.01/0.14 : 285.79 sq,,,,,,,force I,,meas V,meas V,,force I,
+1006,2,res_high_,,n+ high voltage resistor 320.67 / 12.8 : 25.06 sq,hv n+ res, , , ,hv n+ res,substrate,,,,,,,1
+,,,,deep n-well resistor 24.505 / 22.545 : 1.09 sq,, ,deep n-well res,deep n-well res,,substrate,,,,,,,
+,2,,,p+ resistor 320.67 / 12.8 : 25.05 sq,,,,,,,hv p+ res,n-well, , ,hv p+ res, ,
+,,,,p+ resistor - 4 terminal measurement 40.01/0.14 : 285.79 sq,,,,,,,force I,,meas V,meas V,,force I,
+1012,5,,,"n-chan gate oxide capacitor, no source/drain: large area     -THIN OX",,,,,,,,,,,,,1
+,,,,"Area = 4267.2 um2, perimeter = 1029.8 um, poly over field=1281.3 um2",substrate,gate,substrate,gate,substrate,gate,,,,,,,
+,5,,,"p-chan gate oxide capacitor, no source/drain: large area",,,,,,,,,,,,,
+,,,,"Area = 4203.5 um2, perimeter = 1055.9 um, poly over field=1369.7 um2",,,,,,,n-well,gate,n-well,gate,n-well,gate,
+1014,2,,,n+ resistor 12.44 / 311.105 : 25.0 sq,n+ res,substrate,,,n+ res,,,,,,,,1
+,,,,n+ resistor - 4 terminal measurement 42.55/0.14: 303.9 sq,,substrate,n+ res,n+ res,,,,,,,,,
+,2,,,ultra long poly 1 line,,,,,,,,,,,,,
+,,,,"0.15/1650.48, 0.28 um space over n_ diff lines",,,,,,,n+ diff,poly comb,poly serp,poly serp,,,
+,,,,"0.13/1566.17, 0.3 um space over field",,,,,,,,poly comb,,poly serp,poly serp,,
+,,,,"0.1/1955.46, 0.245 um space over field",,,,,,,,poly comb,,,poly serp,poly serp,
+1016,,cap_vpp_,,"VPP_25fF, Poly/M4 Shield, M1-M3 fingers; m=275",c0,c1,,,,,,,,,Top Shield,Psub,1
+1017,,cap_vpp_,,"VPP_25fF, LI/M4 Shield, M1-M3 fingers; m=275",c0,c1,,,,,,,,,Top Shield,Psub,1
+1018,,,,"340fF 2X Nhvnatives, 4X XCMVPP's, M3-M4 fingers, M5-shield, m=132",G,S/D/Bulk,,,,,,,,,,Psub,1
+1021,,cap_vpp_,,"VPP_100fF, Poly/M4 Shield, M1-M3 fingers; m=132",c0,c1,,,,,,,,,Top Shield,Psub,1
+1022,,cap_vpp_,,"VPP_100fF, M4 Shield, M1-M3 fingers; m=132",c0,c1,,,,,,,,,Top Shield,Psub,1
+1023,,,,description is missing,,,,,,,,,,,,,1
+1026,2,,,ultra long n+ diff line integrity test;,,,, ,,,,,,,,,1
+,,,,"1354.5 squares long ; 0.29 um line, 0.3 um space",substrate,n+ serp,n+ serp,n+ serp, , ,,,,,,,
+,,,,"1354.5 squares long ; 0.29 um line, 0.3 um space",substrate,n+ serp,,n+ serp,n+ serp,,,,,,,,
+,,,,"1354.5 squares long ; 0.29 um line, 0.30 um space",substrate,n+ serp,,,n+ serp,n+ serp,,,,,,,
+,2,,,ultra long p+ diff line integrity test;,,,, ,,,,,,,,,
+,,,,"1354.5 squares long ; 0.29 um line, 0.30 um space",,,,, , ,n-well,p+ serp,p+ serp,p+ serp,,,
+,,,,"1354.5 squares long ; 0.29 um line, 0.3 um space",,,,,,,n-well,p+ serp,,,p+ serp,p+ serp,
+,,,,"1354.5 squares long ; 0.29 um line, 0.3 um space",,,,,,,n-well,p+ serp,,p+ serp,p+ serp,,
+1030,1,,,n+/n-well field FET w/ poly 1 gate, , , , , , ,,,,,,,1
+,,,,"n+ / n-well w/l = 26 x 40 / 0.32 (diff to nwell 0.32, poly to diff 0.05)",substrate,n-well,gate,n+,,,,,,,,,
+,,,,"n+ / n-well w/l = (6.56*210) / 0.32 (N+ diff to nwell 0.32, poly to diff 0.05) with NWM corner rounding",substrate,n-well,,,gate,n+,,,,,,,
+,1,,,p+/p-well field FET w/ poly 1 gate, , , , , , ,,,,,,,
+,,,,"p+ / p-well w/l = 26 x 40 / 0.18 (diff to pwell 0.18, poly to diff 0.05)",,,,,,,n-well,substrate,gate,p+,,,
+,,,,"p+ / p-well w/l = 24 x 40 / 0.15 (diff to pwell 0.15, poly to diff 0.05)",,,,,,,n-well,substrate,,,gate,p+,
+1037,3,,,M1-LI1-poly contacts: mcon/licon = 0.17/0.17 um M1 sq = 4668.5, , , , , , ,,,,,,,1
+,,,,contact string (8740 contacts; 0.73 sq/ct RSGP),string,string,string,string,string,string,,,,,,,
+,3,,,M2 to M1 via: 0.15um  (3240 vias) M2 sq = 3060,,,,,,,string,string,string,string,string,string,
+1040,2,,,nested poly 1 on diff,,,,,,,,,,,,,1
+,,,,"p1 w = 0.15um, s = 0.25um res l/w = 23.595 / 0.15",V-meas,force - I,V-meas,force - I, , ,,,,,,,
+,,,,"p1 w = 0.15um, s = 0.25um res l/w = 25.595 / 0.15",,force - I,,force - I,V-meas,V-meas,,,,,,,
+,2,,,isolated poly 1 on diff ,,,,,,,,,,,,,
+,,,,p1 w = 0.15um res l/w = 23.595 / 0.15,,,,,,,sense 2,force I,,force I, ,,
+,,,,p1 w = 0.15um res l/w = 23.595 / 0.15,,,,,,,,force I,,force I,sense 2,sense 1,
+1062,,cap_vpp_,,VPP_12fF  3.6x3.6,A,B,,,,,,,,,,Psub,1
+1063,,cap_vpp_,,VPP_mis  12fF,stub,load,Vp,Vn,Vpwr,Vgnd,,,,,,,1
+1070,1,,,p-chan field oxide FETs poly1 gate,, , ,,,,,,,,,,1
+,,,,"poly1 gate w/l = 1000/0.17, diff spacing = 0.27",n-well,drain / source,gate,source / drain,gate,drain / source,,,,,,,
+,,,,"poly1 gate w/l = 1000/0.14, diff spacing = 0.24",n-well,,,,,,,drain / source,gate,source / drain,gate,drain / source,
+1072,,cap_vpp_,,"VPP_12fF, M3-Shield; m=891",C0,C1,,,,,,,,,MET-3,Psub,1
+1073,,cap_vpp_,,"VPP_50fF, M3-Shield; m=275",C0,C1,,,,,,,,,MET-3,Psub,1
+1074,,cap_vpp_,,"VPP_100fF, M3-Shield; m=132",C0,C1,,,,,,,,,MET-3,Psub,1
+1076,3,,,M1-LI1-N+ contacts: mcon/licon1 = 0.17/0.17 um, , , , , , ,,,,,,,1
+,,,,contact string (6384 contacts; 0.88 sq/ct RSN),string,string,string,string,string,substrate,,,,,,,
+,3,,,M1-LI1-P+ contacts: mcon/licon1 = 0.17/0.17 um, , , , , , ,,,,,,,
+,,,,contact string (6992 contacts; 0.88 sq/ct RSP),,,,,,,string,string,string,string,string,n-well,
+1077,3,,,HV M1-LI1-N+ contacts: mcon/licon1 = 0.17/0.17 um, , , , , , ,,,,,,,1
+,,,,contact string (6384 contacts; 0.88 sq/ct RSN) m1 sq = 3734.808,string,string,string,string,string,substrate,,,,,,,
+,3,,,HV M1-LI1-P+ contacts: mcon/licon1 = 0.17/0.17 um, , , , , , ,,,,,,,
+,,,,contact string (6992 contacts; 0.88 sq/ct RSP)  m1 sq = 3410.04,,,,,,,string,string,string,string,string,n-well,
+1079,,,,VPP_mis  50fF; M3 shield,stub,load,Vp,Vn,Vpwr,Vgnd,stub_t,load_t,Vp_t,Vn_t,Vpwr,Vgnd,1
+1081,,cap_vpp_,,XCMVPP2 over NHVNATIVE10x4,Psub/S/D/B,Gate,,,,,,,,,,Psub/S/D/B,1
+1082,3,,,M1-LI1 contacts: mcon = 0.17 um, , , , , , ,,,,,,,1
+,,,,contact string (3600 contacts; 0.88 sq/ct RSLIW),string,string,string,string,string,string,,,,,,,
+,3,,,LI sheet resistance and electrical linewidth, ,, ,,, ,,,,,,,
+,,,,2.6 X 452.785 Line,,,,,,,Force 1,Force 2,Sense 1,,Sense 2,,
+,,,,0.17 X 426.04,,,,,,,Force 1,Force 2,,Sense 1,,Sense 2,
+1083,,cap_vpp_,,"VPP_1fF, M3-Shield; m=7436",C0,C1,,,,,,,,,MET-3,Psub,1
+1085,,cap_vpp_,,"VPP_1fF, LI Shield, M1/M2 fingers; m=7436",C0,C1,,,,,,,,,,Psub,1
+1086,,cap_vpp_,,"VPP_mis  1fF; LI shield, M1/M2 fingers
+VPP_mis  1fF; LI shield, M1/M2 fingers",stub,load,Vp,Vn,Vpwr,Vgnd,stub_t,load_t,Vp_t,Vn_t,Vpwr,Vgnd,1
+,,cap_vpp_,,,,,,,,,,,,,,,
+1087,,cap_vpp_,,XCMVPP2 over PHV5x4,S/D/B,Gate,,,,,,,,,,Psub,1
+1089,3,,,"M2-M1-LI1-N+ stacked via on mcon on licon1; 
+M2 = 0.45 um, via = 0.15 um, mcon/licon = 0.17/0.17 um", , , , , , ,,,,,,,1
+,,,,string (6992 contacts; 0.904 sq/ct RSN),string,string,string,string,string,substrate,,,,,,,
+,3,,,"M2-M1-LI1-P+ stacked via on mcon on licon1;
+M2 = 0.45 um, via = 0.15 um, mcon/licon = 0.17/0.17 um", , , , , , ,,,,,,,
+,,,,string (6992 contacts; 0.904 sq/ct RSP),,,,,,,string,string,string,string,string,n-well,
+1092,3,,,LI1-poly contacts: licon1 = 0.17 um (generic), , , , , , ,,,,,,,1
+,,,,"string (8360 contacts; 0.73 sq/ct RSGP, 0.73 sq/ct RSLIW)",string,string,string,string,string,string,,,,,,,
+,3,,,"M1-LI contact Kelvin,  M1/LI width=0.47/0.28 um", , , , , , ,,,,,,,
+,,,,0.17um mcon Kelvin: .05 LI enclosure,,,,,,,metal 1 Vs,metal 1 If,LI 1 If,,LI Vs,,
+,,,,0.17um mcon Kelvin: -.01 LI enclosure,,,,,,,,,LI Vs,metal 1 If,LI If,metal 1 Vs,
+1093,,,phighvt,"phighvt; w/l=0.64/0.15; licon resistance; n_licons=2,304; contact-gate=0.055u",,,,,,,G/S/B (vpwr=1.8V),,,r0,r1,,1
+,,,phighvt,"phighvt; w/l=0.64/0.15; licon resistance; n_licons=4,608; contact-gate=0.055u",,,,,,,G/S/B (vpwr=1.8V),,,r0,,r2,
+,,,phighvt,"phighvt; w/l=0.64/0.15; licon resistance; n_licons=2,304; contact-gate=0.050u",,,,,,,G/S/B (vpwr=1.8V),r0,r1,,,,
+,,,phighvt,"phighvt; w/l=0.64/0.15; licon resistance; n_licons=4,608; contact-gate=0.050u",,,,,,,G/S/B (vpwr=1.8V),r0,,r2,,,
+,,,nshort,"nshort; w/l=0.64/0.15; licon resistance; n_licons=4,608; contact-gate=0.055u",,,r0,r1,,G/S/B (vgnd=0V),,,,,,,
+,,,nshort,"nshort; w/l=0.64/0.15; licon resistance; n_licons=4,608; contact-gate=0.055u",,,r0,,r2,G/S/B (vgnd=0V),,,,,,,
+,,,nshort,"nshort; w/l=0.64/0.15; licon resistance; n_licons=4,608; contact-gate=0.050u",r0,r1,,,,G/S/B (vgnd=0V),,,,,,,
+,,,nshort,"nshort; w/l=0.64/0.15; licon resistance; n_licons=4,608; contact-gate=0.050u",r0,,r2,,,G/S/B (vgnd=0V),,,,,,,
+1094,3,,,LI1-n+ diffusion contacts: licon1 = 0.17 um (generic), , , , , , ,,,,,,,1
+,,,,"string (6992 cts 0.88 sq/ct RSN, 0.73 sq.ct RSLIW)",string,string,string,string,string,substrate,,,,,,,
+,3,,,LI1-p+ diffusion contacts: licon1 = 0.17 um (generic), , , , , , ,,,,,,,
+,,,,"string (6992 cts 0.88 sq/ct RSP, 0.73 sq/ct RSLIW)",,,,,,,string,string,string,string,string,n-well,
+1137,5,,,n-chan gate oxide capacitor: field-edge intensive, , , , , , ,,,,,,,1
+,,,,"FOM w/s = 0.14/0.27, Active Area = 722.4 um2, FOX Perimeter = 10353.6 um",substrate,gate,substrate,gate,substrate,gate,,,,,,,
+,5,,,p-chan gate oxide capacitor: field-edge intensive, , , , , , ,,,,,,,
+,,,,"FOM w/s = 0.14/0.27, Active Area = 1657.8 um2, FOX Perimeter = 23760 um",,,,,,,n-well,gate,n-well,gate,n-well,gate,
+1141,4,,,NMOS contacted pitch FETs: lower half with prox. bars on diff. (0.28 um space),,,,,,,,,,,,,1
+,,,,0.42/20 NMOS,substrate,gate,drain,source,,,,,,,,,
+,,,,7/8 NMOS,substrate,gate,,drain ,source,,,,,,,,
+,,,,7/0.15 NMOS,substrate,gate,,,drain,source,,,gate,,,,
+,,,,"PLACE IN CENTER, CORNER OF RETICLE",,,,,,,,,,,,,
+,,,,w/l = 0.15/9.15 um electrical linewidth: upper half,,Force 1,,,,,Sense 2,Sense 1,Force 2,,,,
+,,,,10x10 Van der P.,,Sense 1,,,,,,,,Sense 2,Force 1,Force 2,
+1174,,cap_vpp_,,"VPP_50fF, LI Shield, M1/M2/M3 fingers; m=275",C0,C1,,,,,,,,,,Psub,1
+1175,,cap_vpp_,,"VPP_100fF, LI Shield, M1/M2/M3 fingers; m=132",C0,C1,,,,,,,,,,Psub,1
+1178,,cap_vpp_,,"VPP_mis  50fF; LI shield, M1/M2/M3 fingers
+VPP_mis  100fF; LI shield, M1/M2/M3 fingers",stub,load,Vp,Vn,Vpwr,Vgnd,stub_t,load_t,Vp_t,Vn_t,Vpwr,Vgnd,1
+,,cap_vpp_,,,,,,,,,,,,,,,
+1182,,cap_vpp_,,"VPP_12fF, LI Shield, M1/M2/3 fingers; m=891",C0,C1,,,,,,,,,,Psub,1
+1183,,cap_vpp_,,"VPP_mis  12fF; LI shield, M1/M2/M3 fingers
+VPP_mis  12fF; LI shield, M1/M2/M3 fingers",stub,load,Vp,Vn,Vpwr,Vgnd,stub_t,load_t,Vp_t,Vn_t,Vpwr,Vgnd,1
+,,cap_vpp_,,,,,,,,,,,,,,,
+1184,,cap_vpp_,,"VPP_100fF, Poly-M5 Shield, LI/M1/M2/M3/M4 fingers; m=132",C0,C1,,,,,,,,,MET-5,Psub,1
+1185,,cap_vpp_,,"VPP_100fF, M5 Shield, LI/M1/M2/M3/M4 fingers; m=132",C0,C1,,,,,,,,,MET-5,Psub,1
+1186,,cap_vpp_,,"VPP_100fF, LI-M5 Shield, M1/M2/M3/M4 fingers; m=132",C0,C1,,,,,,,,,MET-5,Psub,1
+1187,,cap_vpp_,,"VPP_50fF, LI-M5 Shield, M1/M2/M3 fingers; m=275",C0,C1,,,,,,,,,MET-3,Psub,1
+1188,,cap_vpp_,,"VPP_12fF, xcmvpp4p4x4p6_fltpolym3shield, PYfloat-M3 Shield, LI/M1/M2 fingers; m=486",C0,C1,botshield,topshield,,,,,,,,Psub,1
+,,cap_vpp_,,"VPP_12fF, xcmvpp4p4x4p6_polym5shield, PY-M5 Shield, LI/M1/M2/M3/M4 fingers; m=405",,,,,,,C0,C1,,,topshield,Psub,
+1189,,cap_vpp_,,"VPP_50fF, xcmvpp6p86p1_polym5shield, PY-M5 Shield, LI/M1/M2/M3/M4 fingers; m=150",C0,C1,,topshield,,,,,,,,Psub,1
+,,cap_vpp_,,"VPP_50fF, xcmvpp8p6x7p9_tpolym5shield, PYfloat-M5 Shield, LI/M1/M2/M3/M4 fingers; m=125",,,,,,,C0,C1,,,topshield,Psub,
+1206,,,,"PiS Capacitor in N-Well, C = 30.5pF per device",,,,,,,,,,,,,4
+,,,,"w/l = 5/0.5, m=1650 (C=18.5fF per finger)",sub,,,,,body,gate,,,,,,
+1213,,,,PiS resistor in nwell  L/W = 20/5,sub,low,high,,gate,,,,,,,,4
+,,,,PiS resistor in nwell  L/W = 40/5,sub,,low,high,gate,,,,,,,,
+,,,,"PiS resistor not in nwell, L/W = 20//5",sub,,,,gate,low,high,,,,,,
+,,,,PiS resistor not in nwell  L/W = 40/5,sub,,,,gate,,low, high,,,,,
+,,,,"PiS capacitor in nwell, W/L = 40/40,  n = 2,  C = 23.7 pF",sub,,,,,,,,S/D,gate,,,
+,,,,"PiS capacitor in nwell, W/L = 40/0.5, n = 50,  C = 7.4 pF",sub,,,,,,,,,gate,S/D,,
+,,,,"PiS capacitor in nwell, W/L = 40/0.33, n = 66,  C = 6.5 pF",sub,,,,,,,,,gate,,S/D,
+1240,6,,,"AF Cell (WNlv/LNlv,WNmx/LNmx,Wfuse/Lfuse)",,,,,,,,,,,,,4
+,,,,Vpp:          metal connection,,,,,,,,,,,,,
+,,,,Vpp_res:  connection through 513.5 Ohm resistor,,,,,,,,,,,,,
+,,,,"N+ diffusion w/l = 0.29/1.275, ",,,,,,,,,,,,,
+,,,,2nd resistor terminals shorted by Metal3,,,,,,,,,,,,,
+,,,,"2x2 (4/.15,4/.37,4/.48) AF Array: Cell Ver. 1.B",sub,,WL2 gate,WL1 gate,HV gate,Vpp_res,,Vpp,,,Source 1,Source 2,
+,,,,"2x2 (4/.15,4/.37,4/.48) AF Array: Cell Ver. 2",sub,Vpp_res,WL2 gate,WL1 gate,HV gate,,Vpp,,Source 1,Source 2,,,
+1242,6,,,"AF Cell (WNlv/LNlv,WNmx/LNmx,Wfuse/Lfuse)",,,,,,,,,,,,,4
+,,,,"2x2 (4/.15,4/.37,4/.48) AF Array: Cell Ver. 2",,,,,,,,,,,,,
+,,,,Vpp:         metal connection,,,,,,,,,,,,,
+,,,,Vpp_res:  connection through N+ diff resistor,,,,,,,,,,,,,
+,,,,extra N+ diffusion w/l = 0.29/1.275 (513 Ohm) ,,,,,,,,,,,,,
+,,,,resistor terminals shorted by Metal3,,,,,,,,,,,,,
+,,,,"N+ diffusion w/l = 0.29/3.825, 1.54 kOhm",sub,,WL2 gate,WL1 gate,HV gate,Vpp_res,,Vpp,,,Source 1,Source 2,
+,,,,"N+ diffusion w/l = 0.29/2.550, 1.03 kOhm",sub,Vpp_res,WL2 gate,WL1 gate,HV gate,,Vpp,,Source 1,Source 2,,,
+1243,6,,,"AF Cell (WNlv/LNlv,WNmx/LNmx,Wfuse/Lfuse)",,,,,,,,,,,,,4
+,,,,"2x2 (4/.15,4/.37,4/.48) AF Array: Cell Ver. 2 Breakout",,,,,,,,,,,,,
+,,,,Vpp:         metal connection,,,,,,,,,,,,,
+,,,,Vpp_res:  connection through N+ diff resistor,,,,,,,,,,,,,
+,,,, extra N+ diffusion w/l = 0.29/1.275 (513 Ohm) ,,,,,,,,,,,,,
+,,,,resistor terminals shorted by Metal3,,,,,,AF body,,AF body,,,AF body,AF body,
+,,,,"N+ diffusion w/l = 0.29/2.550, 1.03 kOhm",sub,Vpp_res,WL2 gate,WL1 gate,HV gate,WL1 / S1,Vpp,WL1 / S2,Source 1,Source 2,WL2 / S1,WL2 / S2,
+1248,,,,missing desctiption,,,,,,,,,,,,,4
+1375,2,,,M1 sheet resistance and electrical linewidth, , , ,,, ,,,,,,,1
+,,,,2.595 x 435.255 Line ,Force 1,Force 2,Sense 1,,,Sense 2,,,,,,,
+,,,,0.18 X 443.965 Line,Force 1,Force 2,,Sense 1,Sense 2,,,,,,,,
+,2,,,M2 sheet resistance and electrical width, , , ,, , ,,,,,,,
+,,,,2.6 X 457.2 Line,, ,, ,,,Force 1,Force 2,Sense 1,,Sense 2,,
+,,,,0.24 X 417.46 Line, ,,,,,,Force 1,Force 2,,Sense 1,,Sense 2,
+1668,8,,,lateral PNP BJT (pnppar) (Ae=0.68x0.68um2) Local Mismatch 1-1,Psub,B1,E1,E2,B2, ,,,,,,,1
+,,,,lateral PNP BJT (pnppar) (Ae=0.68x0.68um2) Local Mismatch 8-1,C-B-Psub,,,,,,,,,E8,E1,,
+1690,,,,Matching Poly Resistors,,,,,,,,,,,,,1
+,,,,"W/L = 1/57.925, spacing = 0.48; proximity resistors",IF,V2,,V1,,,,,,,,,
+,,,,"W/L = 0.68/12.42, spacing = 0.48; proximity resistors",,,,,IF,V2,V1,,,,,,
+,,,,"W/L = 1.0/12.42, spacing = 0.48; proximity resistors",,,,,,,,V1,V2,If,,,
+1691,,,,Matching Poly Resistors,,,,,,,,,,,,,1
+,,,,"W/L = 1/65, spacing = 0.48; proximity resistors",V1,,V2,IF,,,,,,,,,
+,,,,"W/L = 0.68/65, spacing = 0.48; proximity resistors",,,,IF,V2,,V1,,,,,,
+,,,,"W/L = 0.68/57.925, spacing = 0.48; proximity resistors",,,,,,,,V1,,V2,IF,,
+1692,,,,Matching Poly Resistors,,,,,,,,,,,,,1
+,,,,"W/L = 1/57.925, spacing = 0.48; proximity resistors",IF,V0,IS2,V2,,V1,IS1,,,,,,
+,,,,"W/L = 0.68/12.42, spacing = 0.48; proximity resistors",,,,,,,IS1,V1,V2,IS2,V0,IF,
+1693,,,,Matching Poly Resistors,,,,,,,,,,,,,1
+,,,,"W/L = 5/50.3, spacing = 0.48; proximity resistors",V1,,V2,IF,,,,,,,,,
+,,,,"W/L = 1/20, spacing = 0.48; proximity resistors",,,,IF,V1,V2,,,,,,,
+,,,,"W/L = 2/10, spacing = 0.48; proximity resistors",,,,,,,V1,V2,IF,,,,
+1700,6,,,Cell Vss contact, , , , , , ,,,,,,,1
+,,,,string (9014 cts; 3.22 sq/ct RSN; 1.68 sq/ct RSM1), , ,string,poly,substrate,string,,,,,,,
+,,,,Kelvin contact,met1,met1,diff, ,substrate,,,,,,,,
+,,,,(u-test),{diff},,,,,,,,,,,,
+1701,6,,,Cell L1/p+ cross-couple contact, , , , , , ,,,,,,,1
+,,,,string (32256 cts; 0.48 sq/ct RSP; 1.84 sq/ct RSLI), , ,string,poly,n-well,string,,,,,,,
+,,,,Kelvin contact,LI1,LI1,diff, ,n-well,,,,,,,,
+,,,,(u-test),{diff},,,,,,,,,,,,
+1702,6,,,Cell Vcc contact, , , , , , ,,,,,,,1
+,,,,string (7968 cts; 3.22 sq/ct RSP; 3.92 sq/ct RSM1), , ,string,poly,n-well,string,,,,,,,
+,,,,Kelvin contact,met1,diff,diff, ,n-well,,,,,,,,
+,,,,(u-test),{met1},,,,,,,,,,,,
+1703,6,,,Cell L1/n+ cross-couple contact, , , , , , ,,,,,,,1
+,,,,string (32256 cts; 0.56 sq/ct RSN; 1.84 sq/ct RSLI), , ,string,poly,substrate,string,,,,,,,
+,,,,Kelvin contact,LI1,LI1,diff, ,substrate,,,,,,,,
+,,,,(micropad),{diff},,,,,,,,,,,,
+1705,6,,,L1/n+ bit line contact, , , , , , ,,,,,,,1
+,,,,string (10080 mcons / 10080 licons; 3.92 sq/mcon RSM1; 1.25 sq/mcon RSLI; 1.24 sq/licon RSN), , ,string,poly,substrate,string,,,,,,,
+,,,,Kelvin contact,met1,met1,diff, ,substrate,,,,,,,,
+,,,,(micropad),{diff},,,,,,,,,,,,
+1709,6,,,LI to LI / LICON to LICON bridging test structure (15232 cells),serp,,,comb,serp,,,,,,,,1
+1726,6,,,Ultra long local interconnect 1 line integrity test; ~81600 squares; 9520 cells,serp,met1, ,comb,,,,met1,,comb,,serp,1
+1743,6,,,Cell LI1-poly string,,,,,,,,,,,,,1
+,,,,"""long"" side: 5200 cts",serp,,poly,substrate,p-well,n-well,p-well,n-well,poly,substrate,,serp,
+,,,,"""short"" side: 5200 cts",,serp,poly,substrate,p-well,n-well,p-well,n-well,poly,substrate,serp,,
+1744,6,,,6T SRAM cell FETs,,,,,,,,,,,,,1
+,,,,NPD long landing pad side:      0.21/0.15,,,Psub,G,S,D,,,,Nwell,,Psub,
+,,,,NPASS long landing pad side:  0.14/0.15,S,D,Psub,G,,,,D2,,Nwell,,Psub,
+,,,,PPU long landing pad side:      0.14/0.15,,,Psub,,,,G,,S,Nwell,D,Psub,
+1745,,,,s8te2et_s1744_npass_c;,src,drn,drn2,gate,vpwell,,,,,,vnwell,,1
+,,,,s8te2et_s1745_npd_a;,,,,gate,vpwell,drn1,drn2,src,,,vnwell,,
+,,,,s8te2et_s1745_ppu_a;,,,,gate,vpwell,,,,drn1,drn2,vnwell,src,
+1756,6,,,6T SRAM N-channel gap and endcap ,,,,,,,,,,,,,1
+,,,,integrity structure (for cell FET leakage,,,,,,,,,,,,,
+,,,,measurement),,,,,,,,,,,,,
+,,npass,special_nfet_pass	,NPASS: 2240 FETs,,,,,,Psub,G,S,,,D,Psub,
+,,npd,,"NPD:     3360 FETs, 1680 gaps",,,,,,Psub,G1,S,G2,D,,Psub,
+,,npass,,NPASS: 2240 FETs,G,S,,,D,Psub,,,,,,Psub,
+,,npd,,"NPD:     3360 FETs, 1680 gaps",G1,S,G2,D,,Psub,,,,,,Psub,
+1758,6,,,6T SRAM P-channel gap and endcap integrity structure (for cell FET leakage measurement),,,,,,,,,,,,,1
+,,ppu,,"PPU:     12320 FETs, 6160 gaps",G1,,G2,,,,,,,S,D,Nwell,
+1760,6,,,M1 / M2 step coverage/bridging over cell topo., , , ,, , ,,,,,,,1
+,,,,M1: 0.14um  ~16210m,m1 serp, , ,m1 comb, ,,,,,m1 comb,,m1 serp,
+,,,,M2: 0.14um ~22395 um, ,m2 serp,m2 comb, ,, ,,,m2 comb,,m2 serp,,
+1773,6,,,"Memory cell poly bridging structure
+20880 NMOS; 20880 PMOS; 31320 gaps
+PMOS W/L = 0.15/0.14; NMOS W/L = 0.21/0.15",,,WL1,WL2,substrate,n-well,NO PAD,NO PAD,NO PAD,NO PAD,NO PAD,NO PAD,1
+2602,,,nfet,fet mismatch nfet w/ sep sb ; w=1.000; l=0.500;,S,G,D1,D1,,,,,,,,B,2
+,,,nfet,fet mismatch nfet w/ sep sb ; w=3.000; l=0.150;,S,G,,,D1,D2,,,,,,B,
+,,,nfet,fet mismatch nfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,D1,D2,,,,B,
+,,,nfet,fet mismatch nfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,,,D1,D2,,B,
+2605,,,pfet,fet mismatch pfet w/ sep sb ; w=1.000; l=0.500;,S,G,D1,D1,,,,,,,,B,2
+,,,pfet,fet mismatch pfet w/ sep sb ; w=3.000; l=0.150;,S,G,,,D1,D2,,,,,,B,
+,,,pfet,fet mismatch pfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,D1,D2,,,,B,
+,,,pfet,fet mismatch pfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,,,D1,D2,,B,
+2607,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=7.000; l=0.250;,S,G,D1,D1,,,,,,,,B,2
+,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=7.000; l=0.150;,S,G,,,D1,D2,,,,,,B,
+,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=3.000; l=0.250;,S,G,,,,,D1,D2,,,,B,
+,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=3.000; l=0.150;,S,G,,,,,,,D1,D2,,B,
+2608,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=0.420; l=1.000;,S,G,D1,D1,,,,,,,,B,2
+,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=0.420; l=0.180;,S,G,,,D1,D2,,,,,,B,
+,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,D1,D2,,,,B,
+,,,lowvtnfet,fet mismatch LowVtnfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,,,D1,D2,,B,
+2611,,,highvtpfet,fet mismatch HighVtpfet w/ sep sb ; w=1.000; l=0.500;,S,G,D1,D1,,,,,,,,B,2
+,,,highvtpfet,fet mismatch HighVtpfet w/ sep sb ; w=3.000; l=0.150;,S,G,,,D1,D2,,,,,,B,
+,,,highvtpfet,fet mismatch HighVtpfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,D1,D2,,,,B,
+,,,highvtpfet,fet mismatch HighVtpfet w/ sep sb ; w=0.420; l=0.150;,S,G,,,,,,,D1,D2,,B,
+2612,,,nativevtnfet,fet mismatch NTVNativenfet w/ sep sb ; w=4.000; l=0.500;,S,G,D1,D1,,,,,,,,B,2
+,,,nativevtnfet,fet mismatch NTVNativenfet w/ sep sb ; w=0.420; l=0.800;,S,G,,,D1,D2,,,,,,B,
+,,,nativevtnfet,fet mismatch NTVNativenfet w/ sep sb ; w=10.000; l=0.500;,S,G,,,,,D1,D2,,,,B,
+,,,nativevtnfet,fet mismatch NTVNativenfet w/ sep sb ; w=1.000; l=0.600;,S,G,,,,,,,D1,D2,,B,
+2618,,,high voltage nfet,fet mismatch HVnfet w/ sep sb ; w=0.420; l=0.500;,S,G,D1,D1,,,,,,,,B,2
+,,,high voltage nfet,fet mismatch HVnfet w/ sep sb ; w=0.420; l=0.500;,S,G,,,D1,D2,,,,,,B,
+,,,high voltage nfet,fet mismatch HVnfet w/ sep sb ; w=0.420; l=0.500;,S,G,,,,,D1,D2,,,,B,
+,,,high voltage nfet,fet mismatch HVnfet w/ sep sb ; w=0.420; l=0.500;,S,G,,,,,,,D1,D2,,B,
+2622,,,high voltage pfet,fet mismatch HVpfet w/ sep sb ; w=0.420; l=0.500;,S,G,D1,D1,,,,,,,,B,2
+,,,high voltage pfet,fet mismatch HVpfet w/ sep sb ; w=0.420; l=0.500;,S,G,,,D1,D2,,,,,,B,
+,,,high voltage pfet,fet mismatch HVpfet w/ sep sb ; w=0.420; l=0.500;,S,G,,,,,D1,D2,,,,B,
+,,,high voltage pfet,fet mismatch HVpfet w/ sep sb ; w=0.420; l=0.500;,S,G,,,,,,,D1,D2,,B,
+2624,,,nativevtnfet,fet mismatch Nativenfet w/ sep sb ; w=1.000; l=0.900;,S,G,D1,D1,,,,,,,,B,2
+,,,nativevtnfet,fet mismatch Nativenfet w/ sep sb ; w=0.700; l=0.900;,S,G,,,D1,D2,,,,,,B,
+,,,nativevtnfet,fet mismatch Nativenfet w/ sep sb ; w=0.420; l=0.900;,S,G,,,,,D1,D2,,,,B,
+,,,nativevtnfet,fet mismatch Nativenfet w/ sep sb ; w=0.420; l=0.900;,S,G,,,,,,,D1,D2,,B,
+2627,,,lowvtpfet,fet mismatch LowVtpfet w/ sep sb ; w=1.000; l=0.500;,S,G,D1,D1,,,,,,,,B,2
+,,,lowvtpfet,fet mismatch LowVtpfet w/ sep sb ; w=0.420; l=0.350;,S,G,,,D1,D2,,,,,,B,
+,,,lowvtpfet,fet mismatch LowVtpfet w/ sep sb ; w=0.420; l=0.350;,S,G,,,,,D1,D2,,,,B,
+,,,lowvtpfet,fet mismatch LowVtpfet w/ sep sb ; w=0.420; l=0.350;,S,G,,,,,,,D1,D2,,B,
+2634,1,,npn bjt,"NPN BJT (poly formed emitter, HV NPN) m=1",,Psub,C,E,B,,,,,,,,2
+,,,npn bjt,"NPN BJT (poly formed emitter, HV NPN) m=1 mismatch",,,,,,Psub,B2,E2,E1,B1,C,,
+2729,,,nvhv,"nvhv symmetric mismatch:5/2.2, m=4",S,G,D1,D2,,,,,,,,B,2
+,,,nvhv,"nvhv symmetric mismatch:20/2.2, m=4",S,G,,,D1,D2,,,,,,B,
+,,,nvhv,"nvhv symmetric mismatch:5/0.7, m=4",S,G,,,,,D1,D2,,,,B,
+,,,nvhv,"nvhv symmetric mismatch:20/0.7, m=4",S,G,,,,,,,D1,D2,,B,
+2758,,,pvhv,"pvhv symmetric mismatch:5/2.16, m=4",S,G,D1,D2,,,,,,,,B,2
+,,,pvhv,"pvhv symmetric mismatch:20/2.16, m=4",S,G,,,D1,D2,,,,,,B,
+,,,pvhv,"pvhv symmetric mismatch:5/0.66, m=4",S,G,,,,,D1,D2,,,,B,
+,,,pvhv,"pvhv symmetric mismatch:20/0.66, m=4",S,G,,,,,,,D1,D2,,B,
+3012,5,,,"HV n-chan gate oxide capacitor, no source/drain: large area",,,,,,,,,,,,,2
+,,,,"NDfif Area = 10 x 41.11 x 10.38 = 4,267.22um2
+NDiff perimeter = 10 x 2 x (41.11+10.38) = 1,029.8um",substrate,gate,substrate,gate,substrate,gate,,,,,,,
+,5,,,"HV p-chan gate oxide capacitor, no source/drain: large area",,,,,,,,,,,,,
+,,,,"NDfif Area = 10 x 43.025 x 9.77 = 4,203.54um2
+NDiff perimeter = 10 x 2 x (43.025+9.77) = 1,055.9um",,,,,,,n-well,gate,n-well,gate,n-well,gate,
+3051,,cap,xcmvpp3,xcmvpp3,C0,C1,,,,,,,,,,Psub,2
+3052,,,xcmvpp4,xcmvpp4,C0,C1,,,,,,,,,,Psub,2
+3053,,,xcmvpp5,xcmvpp5,C0,C1,,,,,,,,,,Psub,2
+3054,,,xcmvpp4p4x4p6_m1m2,xcmvpp4p4x4p6_m1m2,C0,C1,,,,,,,,,,Psub,2
+3055,,,xcmvpp11p5x11p7_m1m2,xcmvpp11p5x11p7_m1m2,C0,C1,,,,,,,,,,Psub,2
+3056,,,xcmvpp11p5x11p7_m1m4,xcmvpp11p5x11p7_m1m4,C0,C1,,,,,,,,,,Psub,2
+3057,,,xcmvpp6,xcmvpp6,C0,C1,,,,,,,,,,Psub,2
+3181,,cap_var_lvt,xcnwvc,"Varactor Mismatch (xcnwvc), W/L/M=5/0.5/528 Matching Pair",Psub,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,WELL,GATE1,GATE2,2
+3189,,cap_var_hvt			,xcnwvc2,"Varactor Mismatch (xcnwvc2), W/L/M=5/0.5/528 Matching Pair",Psub,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,OPEN,WELL,GATE1,GATE2,2
+3213,5,,,VPP_50fF  7.5x7.5,A,B,,,,,,,,,,Psub,2
+3223,5,,,VPP_mis  50fF,stub,load,Vp,Vn,Vpwr,Vgnd,,,,,,,2
+,5,,,VPP_mis  200fF,,,,,,,stub,load,Vp,Vn,Vpwr,Vgnd,
+3316,5,cap_var_hvt			,xcnwvc2,"Varactor (xcnwvc2), w/l/m=40/40/1",Psub,WELL,GATE,,,,,,,,,,2
+,,cap_var_hvt			,xcnwvc2,"Varactor (xcnwvc2), w/l/m=5/10/56",Psub,,,WELL,GATE,,,,,,,,
+,,cap_var_hvt			,xcnwvc2,"Varactor (xcnwvc2), w/l/m=5/5/98",Psub,,,,,WELL,GATE,,,,,,
+,,cap_var_hvt			,xcnwvc2,"Varactor (xcnwvc2), w/l/m=5/1.5/252",Psub,,,,,,,WELL,GATE,,,,
+,,cap_var_hvt			,xcnwvc2,"Varactor (xcnwvc2), w/l/m=5/0.5/462",Psub,,,,,,,,,WELL,GATE,OPEN,
+3320,,cap_var_lvt,xcnwvc,"Varactor (xcnwvc), w/l/m=40/40/1",Psub,WELL,GATE,,,,,,,,,,2
+,,cap_var_lvt,xcnwvc,"Varactor (xcnwvc), w/l/m=5/10/56",Psub,,,WELL,GATE,,,,,,,,
+,,cap_var_lvt,xcnwvc,"Varactor (xcnwvc), w/l/m=5/5/98",Psub,,,,,WELL,GATE,,,,,,
+,,cap_var_lvt,xcnwvc,"Varactor (xcnwvc), w/l/m=5/1.5/252",Psub,,,,,,,WELL,GATE,,,,
+,,cap_var_lvt,xcnwvc,"Varactor (xcnwvc), w/l/m=5/0.5/462",Psub,,,,,,,,,WELL,GATE,OPEN,
+3350,2,res_iso_pw			,xpwres,xpwres: w/l = 2.65/10.7; R = 13461.81,r1,r0,,,,,,,,,nw_ring,Psub,2
+,,res_iso_pw			,xpwres,xpwres: w/l = 2.65/26.5; R = 33340.0,,r1,r0,,,,,,,,nw_ring,Psub,
+,,res_iso_pw			,xpwres,xpwres: w/l = 2.65/53.0; R = 66680.0,,,r1,,r0,,,,,,nw_ring,Psub,
+,,res_iso_pw			,xpwres,xpwres: w/l = 2.65/106.0; R = 133360.0,,,,,r1,,r0,,,,nw_ring,Psub,
+,,res_iso_pw			,xpwres,xpwres: w/l = 2.65/159.0; R = 200040.0,,,,,,,r1,,,r0,nw_ring,Psub,
+3360,,,,RSRP - 300 ohm/sq poly resistor sheet resistance: VDP (Revs A-C),,V-meas,,,,,,,,V-meas,force I,force I,2
+3371,,,,S8P WM4 w/ dense dummy lines  - 0.3 x 450 long - Pad2 - Pad5,I1,V1,,,V2,I2,,,,,,,2
+,,,,"S8P RSM4_Kelvin (Width = 2.595um/ Length = 434.755um), # of squares = 167.54",,,,,,,I1,I2,V1,,,V2,
+,,,,"S8P WM4_Kelvin (Width = 0.3um/ Length = 418.375um), # of squares = 1394.58",,,,,,,I1,I2,,V1,V2,,
+3374,,,,S8Q/S8P WM3 w/ dense dummy lines  - 0.3 x 450 long - Pad2 - Pad5,I1,V1,,,V2,I2,,,,,,,2
+,,,,"S8P RSM3_Kelvin (Width = 2.595um/ Length = 434.755um), # of squares = 167.54",,,,,,,I1,I2,V1,,,V2,
+,,,,"S8P WM3_Kelvin (Width = 0.3um/ Length = 418.375um), # of squares = 1394.58",,,,,,,I1,I2,,V1,V2,,
+3376,,,,S8PIR/PF WM5 w/ dense dummy lines  - 1.6 x 450 - Pad2 - Pad5: ,I1,V1,,,V2,I2,,,,,,,2
+,,,,S8PIR/PF RSM5_Kelvin (Width = 2.4um/ Length = 353.4um),,,,,,,I1,I2,V1,,,V2,
+,,,,S8PIR/PF WM5_Kelvin (Width = 1.6um/ Length = 223.6um),,,,,,,I1,I2,,V1,V2,,
+3379,,,,RSRP - 2K ohm/sq poly resistor sheet resistance: VDP,,,,,,,,substrate,V-meas,V-meas,force I,force I,2
+,,,,RSRP - 300 ohm/sq poly resistor sheet resistance: VDP,,,V-meas,V-meas,force I,force I,,substrate,,,,,
+3470,10,,,BVM3M3F,serp,comb,serp,comb,serp,comb,,,,,,,2
+,10,,,"BVM3M3T,BVM3M2",,,,,,,serp,comb,serp,comb,serp,metal2,
+3472,10,,,"serpentine-0.3 micron wide   RSLNM3F - 10,143 squares       
+RSLNM3T - 10,143 squares  - between each pad  - s8q",flat serp,flat serp,flat serp,flat serp,flat serp,flat serp,top serp,top serp,top serp,top serp,top serp,metal2,2
+3475,2,,,RSM3 - 1.5 x 450 long - Pad2 -7,I1,V1,,,,,V2,I2,,,,,2
+,,,,S8P RSM3 (Van der Pauw Structure 30*30um2),,,,,,,,,I1,I2,V1,V2,
+3478,3,,,"RCVIA2,RCVIA2K    - RCVIA has 16,500 vias in chain  - S8Q
+4125 M2 squares between each pad
+3509 M3 squares between each pad",chain 3300,chain 3300,chain 3300,chain 3300,chain 3300,chain end,V1,I1,V2,I2,,,2
+3521,6,,,SNM module (single dut in array),sub,nwell,unused BL / BLB,unused WL,tru,BLB,BL,bar,WL,Vcc,Vss,pwell,2
+3767,,,,s8pf M5 (w=1.6) serpentine (#sq=582.4) over field        (S8PF RSLNM5),A,serp,serp,serp,serp,B,,,,,,,2
+,,,,s8pf M5 (w=1.6) serpentine (#sq=582.4) over M4 grid   (S8PF RSLNM5T),,,,,,,A,serp,serp,serp,B,m4 grid,
+3768,,,,"s8pf via4 (0.8x0.8) via chain (270 vias per array, 5 arrays 1350 total vias) m5 width/space 1.6",A,chain,chain,chain,chain,B,,,,,,,2
+,,,,s8pf via4 (0.8x0.8) kelvin ( m5 width 1.6 ),,,,,,,force a,sense a,force b,sense b,,,
+3770,,,,s8p via3 (0.2x0.2) contact chain (16500 contacts),A,chain,chain,chain,chain,B,,,,,,,2
+,,,,s8p via3 (0.2x0.2) kelvin,,,,,,,force a,sense a,force b,sense b,,,
+3782,,,,s8p M4 (w=0.3) serp / comb over field            (S8P BVM4M4),serp,comb,serp,comb,serp,comb,,,,,,,2
+,,,,s8p M4 (w=0.3) serp / comb over M3 grid       (S8P BVM4M3),,,,,,,serp,comb,serp,comb,serp,m3 grid,
+3789,,,,s8pir/pf M5 (w=1.6) serp / comb over field            (S8PIR/PF BVM5M5),serp,comb,serp,comb,serp,comb,,,,,,,2
+,,,,s8pir/pf M5 (w=1.6) serp / comb over M4 grid       (S8PIR/PF BVM5M4),,,,,,,serp,comb,serp,comb,serp,m4 grid,
+4040,,esd_nfet_g5v0d10v5,nhvesd,nhvesd sym 5.40 0.600,Body,Gate,Src,Drn,,,,,,,,,2
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd sym 17.50 0.550,Body,Gate,,Src,Drn,,,,,,,,
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd sym 19.50 0.550,Body,Gate,,,Src,Drn,,,,,,,
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd sym 21.50 0.550,Body,Gate,,,,Src,Drn,,,,,,
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd sym 23.50 0.550,Body,Gate,,,,,Src,Drn,,,,,
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd sym 26.50 0.550,Body,Gate,,,,,,Src,Drn,,,,
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd sym 30.25 0.550,Body,Gate,,,,,,,Src,Drn,,,
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd asym 17.50 0.550,Body,Gate,,,,,,,,Src,Drn,,
+,,esd_nfet_g5v0d10v5,nhvesd,nhvesd asym 19.50 0.550,Body,Gate,,,,,,,,,Src,Drn,
+4043,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 14.50 0.550 (100x1080),Body,Gate,Src,Drn,,,,,,,,,2
+,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 15.50 0.550 (100x1080),Body,Gate,,Src,Drn,,,,,,,,
+,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 16.50 0.550 (100x1080),Body,Gate,,,Src,Drn,,,,,,,
+,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 17.50 0.550 (100x1080),Body,Gate,,,,Src,Drn,,,,,,
+,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 19.50 0.550 (100x1080),Body,Gate,,,,,Src,Drn,,,,,
+,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 21.50 0.550 (100x1080),Body,Gate,,,,,,Src,Drn,,,,
+,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 23.50 0.550 (100x1080),Body,Gate,,,,,,,Src,Drn,,,
+,,esd_pfet_g5v0d10v5,phvesd,phvesd sym 26.50 0.550 (100x1080),Body,Gate,,,,,,,,Src,Drn,NC,
+4044,,,nshortesd,nshortesd sym 5.40 0.180,Body,Gate,Src,Drn,,,,,,,,,2
+,,,nshortesd,nshortesd sym 20.35 0.165,Body,Gate,,Src,Drn,,,,,,,,
+,,,nshortesd,nshortesd asym 20.35 0.165,Body,Gate,,,Src,Drn,,,,,,,
+,,,nshortesd,nshortesd sym 40.31 0.165 (100x1080),Body,Gate,,,,Src,Drn,,,,,,
+,,,nshortesd,nshortesd asym 40.31 0.165 (100x1080),Body,Gate,,,,,Src,Drn,,,,,
+4045,,,nhvesd,nhvesd asym 21.50 0.550,Body,Gate,Src,Drn,,,,,,,,,2
+,,,nhvesd,nhvesd asym 23.50 0.550,Body,Gate,,Src,Drn,,,,,,,,
+,,,nhvesd,nhvesd asym 26.50 0.550,Body,Gate,,,Src,Drn,,,,,,,
+,,,nhvesd,nhvesd asym 30.25 0.550,Body,Gate,,,,Src,Drn,,,,,,
+,,,nhvesd,nhvesd sym 30.25 1.000,Body,Gate,,,,,Src,Drn,,,,,
+,,,nhvesd,nhvesd asym 30.25 1.000,Body,Gate,,,,,,Src,Drn,,,,
+4046,,,nhvesd,nhvesd sym 40.31 0.550 (100x1080),Body,Gate,Src,Drn,,,,,,,,,2
+,,,nhvesd,nhvesd sym 50.99 0.550 (100x1080),Body,Gate,,Src,Drn,,,,,,,,
+,,,nhvesd,nhvesd asym 40.31 0.550 (100x1080),Body,Gate,,,Src,Drn,,,,,,,
+,,,nhvesd,nhvesd asym 50.99 0.550 (100x1080),Body,Gate,,,,Src,Drn,,,,,,
+,,,nhvesd,nhvesd sym 50.99 1.000 (100x1080),Body,Gate,,,,,Src,Drn,,,,,
+,,,nhvesd,nhvesd asym 50.99 1.000 (100x1080),Body,Gate,,,,,,Src,Drn,,,,
+4100,6,,,2T Flash EEPROM Cell Rev 2 Mini-Array,,,,,,,,,,,,,2
+,,,,FET W/Lsonos/Lnpass = 0.45/0.22/0.15,DNW,Pwell,Psub,WLS1,WL1,WLS2,WL2,SRC2,BL2,SRC1,BL1,Ring,
+4144,4,,,SONOS Rev 2: 25/0.5,B,G,S,DNW,D,,,,,,,,2
+,,,,SONOS Rev 2: 1/0.5,B,G,S,DNW,,D,,,,,,,
+,,,,SONOS Rev 2: 1/0.6,B,G,S,DNW,,,D,,,,,,
+,,,,SONOS Rev 2: 1/0.4,B,G,S,DNW,,,,D,,,,,
+,,,,SONOS Rev 2: 1/1,B,G,S,DNW,,,,,D,,,,
+,,,,SONOS Rev 2: 1.2/0.5,B,G,S,DNW,,,,,,D,,,
+,,,,SONOS Rev 2: 0.8/0.5,B,G,S,DNW,,,,,,,D,,
+,,,,SONOS Rev 2: 1/25,B,G,S,DNW,,,,,,,,D,
+4146,4,,,SONOS Rev 2: 25/0.15,B,G,S,DNW,D,,,,,,,,2
+,,,,SONOS Rev 2: 2/0.15,B,G,S,DNW,,D,,,,,,,
+,,,,SONOS Rev 2: 0.45/0.15,B,G,S,DNW,,,D,,,,,,
+,,,,SONOS Rev 2: 0.45/2,B,G,S,DNW,,,,D,,,,,
+,,,,SONOS Rev 2: 2/2,B,G,S,DNW,,,,,D,,,,
+,,,,SONOS Rev 2: 25/2,B,G,S,DNW,,,,,,D,,,
+,,,,SONOS Rev 2: 0.45/25,B,G,S,DNW,,,,,,,D,,
+,,,,SONOS Rev 2: 2/25,B,G,S,DNW,,,,,,,,D,
+4147,4,,,SONOS Rev 2:        25/0.22,B,G,S,DNW,D,,,,,,,,2
+,,,,Flash Npass Rev 2: 0.45/0.17,B,G,S,DNW,,D,,,,,,,
+,,,,Flash Npass Rev 2: 0.45/0.15,B,G,S,DNW,,,D,,,,,,
+,,,,Flash Npass Rev 2: 0.45/0.13,B,G,S,DNW,,,,D,,,,,
+,,,,SONOS Rev 2:        0.45/0.26,B,G,S,DNW,,,,,D,,,,
+,,,,SONOS Rev 2:        0.45/0.18,B,G,S,DNW,,,,,,D,,,
+,,,,SONOS Rev 2:        0.45/0.22,B,G,S,DNW,,,,,,,D,,
+,,,,SONOS Rev 2:        25/25,B,G,S,DNW,,,,,,,,D,
+4148,4,,,SONOS Rev 2 w/o DNW: 25/0.5,B,G,S,Nwell,D,,,,,,,,2
+,,,,SONOS Rev 2 w/o DNW: 1/0.5,B,G,S,Nwell,,D,,,,,,,
+,,,,SONOS Rev 2 w/o DNW: 1/0.6,B,G,S,Nwell,,,D,,,,,,
+,,,,SONOS Rev 2 w/o DNW: 1/0.4,B,G,S,Nwell,,,,D,,,,,
+,,,,SONOS Rev 2 w/o DNW: 1/1,B,G,S,Nwell,,,,,D,,,,
+,,,,SONOS Rev 2 w/o DNW: 1.2/0.5,B,G,S,Nwell,,,,,,D,,,
+,,,,SONOS Rev 2 w/o DNW: 0.8/0.5,B,G,S,Nwell,,,,,,,D,,
+,,,,SONOS Rev 2 w/o DNW: 1/25,B,G,S,Nwell,,,,,,,,D,
+4149,5,,,"SONOS Rev 2 Capacitor, Area Intensive",,,,,,,,,,,,,2
+,,,,"Area = 15,669.5, Perimeter = 770",B,S/D,,,,,,,,,,G,
+4150,6,,,"2T Flash Cell Rev 2 Array, 11,264 cells",,,,,,,,,,,,,2
+,,,,FET W/Lsonos/Lnpass = 0.45/0.22/0.15,,,,,,,,,,,,,
+,,,,BL to SRC Leakage Structure,DNW,Pwell,Psub,,,,,WLSA,WLA,SRCA,BLA,Ring,
+,,,,Poly Resistance of WLS and WL,,,,,,WLB,WLSB,WLSA,WLA,,,,
+,,,,Met1 Resistance of BL and SRC,,Pwell,,BLB,SRCB,,,,,SRCA,BLA,Ring,
+,,,,BV of Poly WLS to BL,,,,,,,,WLSA,,,BLA,,
+,,,,BV of Poly WL to SRC,,,,,,,,,WLA,SRCA,,,
+4151,6,,,2T Flash Cell Rev 2 FETs,,,,,,,,,,,,,2
+,,,,Flash Npass: 0.45/0.15 w/ Breakout Licon,DNW,B,Psub,,G,,,,,S,D,Ring,
+,,,,Flash Npass: 0.45/0.15 w/ Breakout Licon,DNW,B,Psub,,G,,,S,D,,,Ring,
+4152,6,,,2T Flash Cell Rev 2 FETs,,,,,,,,,,,,,2
+,,,,Flash Npass: 0.45/0.15 w/o SONOS,DNW,B,Psub,,G,,,,,S,D,Ring,
+,,,,Flash Npass: 0.45/0.15 w/o SONOS,DNW,B,Psub,,,,G,S,D,,,Ring,
+4157,5,,,"SONOS Rev 2 Capacitor, Perim. Intensive",,,,,,,,,,,,,2
+,,,,"Area = 5967.5, Perimeter = 23870",B,S/D,,,,,,,,,,G,
+4441,s8tet,,,s8tet_s_hvn_iso_nw_dnw_sti_2p0_esd_IP,Psub,G,P-body,S,D,,,,,,NC,NC,2
+,,,n20vhv1,"n20vhv1 (s8tet_s_hvn_nw_dnw_sti_3p0_IP): ETD, E-test",Psub,G,,,,S,D,,,,NC,NC,
+,,,n20vhviso1,"n20vhviso1 (s8tet_s_hvn_iso_nw_dnw_sti_2p0_esd_DR2_IP): ETD, E-test",Psub,G,,,,,,S,D,P-body,NC,NC,
+,,,,,,,,,,,,,,,NC,NC,
+4442,s8tet,pfet_20v0,p20vhv1,p20vhv1 (s8tet_s_hvp_pwde_stdnw_sti_1p5_2f_60um_IP_LVS),Psub,G,N-body,S,D,,,,,,,,2
+,,pfet_20v0,,s8tet_s_hvp_pwde_stdnw_sti_2p0_2f_60um_IP,Psub,G,,,,S,D,,,,,N-body,
+,,pfet_20v0,,s8tet_s_hvp_pwde_stdnw_sti_1p0_2f_60um_IP_LVS,Psub,G,,,,,,S,D,,,N-body,
+,,pfet_20v0,,s8tet_s_hvp_pwde_stdnw_sti_1p5_2f_60um_s8t18_encl_IP,Psub,G,,,,,,,,S,D,N-body,
+4443,s8tet,pfet_20v0,p20vhv1,p20vhv1 (s8tet_s_hvp_pwde_stdnw_sti_1p5_2f_60um_IP_LVS),Psub,G,N-body,S,D,,,,,,,,2
+,,pfet_20v0,,s8tet_s_hvp_pwde_stdnw_sti_2p0_2f_60um_IP,Psub,G,,,,S,D,,,,,N-body,
+,,pfet_20v0,,s8tet_s_hvp_pwde_stdnw_sti_1p0_2f_60um_IP_LVS,Psub,G,,,,,,S,D,,,N-body,
+,,pfet_20v0,,s8tet_s_hvp_pwde_stdnw_sti_1p5_2f_60um_s8t18_encl_IP,Psub,G,,,,,,,,S,D,N-body,
+4451,s8tet,nfet_20v0_zvt,n20zvtvhv1,n20zvtvhv1; w/l=30/5.5; m=2; s8defet_ccgx_hvn_nw_dnw_native_sti_2p0_nopw_L5p0_W60,Psub,G,S,D,,,,,,,,,2
+,,nfet_20v0_zvt,n20zvtvhv1,n20zvtvhv1; w/l=30/5.5; m=2; s8defet_ccgx_hvn_nw_dnw_native_sti_2p0_nopw_L5p0_W60,Psub,G,,,S,D,,,,,,,
+,,nfet_20v0_zvt,n20zvtvhv1,n20zvtvhv1; w/l=30/5.5; m=2; s8defet_ccgx_hvn_nw_dnw_native_sti_2p0_nopw_L5p0_W60,Psub,G,,,,,S,D,,,,,
+,,nfet_20v0_zvt,n20zvtvhv1,n20zvtvhv1; w/l=30/5.5; m=2; s8defet_ccgx_hvn_nw_dnw_native_sti_2p0_nopw_L5p0_W60,Psub,G,,,,,,,S,D,,,
+,,nfet_20v0_zvt,n20zvtvhv1,n20zvtvhv1; w/l=30/5.5; m=2; s8defet_ccgx_hvn_nw_dnw_native_sti_2p0_nopw_L5p0_W60,Psub,G,,,,,,,,,S,D,
+4530,,,,"Large MiM capacitor, CAPM on M3, 11 plates, each 40x40.  ",BOT plate,TOP plate,open,open,open,open,open,open,open,open,open,open,2
+,,,,"Total A = 17600, P = 1760.  Total expected capacitance 35.5 pF",,,,,,,,,,,,,
+4532,,,,"Periphery-intensive MiM cap, CAPM on M3. 72 plates each 2x35.",BOT plate,TOP plate,open,open,open,open,,,,,,,2
+,,,,"Total A = 5040, P = 5328.  Total expected capacitance = 11.1 pF",,,,,,,,,,,,,
+,,,,"Area-intensive MiM cap, CAPM on M3.  5 plates each 35x35.",,,,,,,BOT plate,TOP plate,open,open,open,open,
+,,,,"Total A = 6125, P = 700.  Total expected capacitance = 12.4 pF",,,,,,,,,,,,,
+4534,,,,"Via-3 array, M4-M3 near CAPM  (min via-3 space to CAPM)",CAPM,M4-M3,open,open,open,open,,,,,,,2
+,,,,"For Via Shorts, 1120 vias, each in 2x2 arrays inside holes in CAPM",(force low),(force hi),,,,,,,,,,,
+,,,,"For Cap Meas, total A = 5196.8, P=5196.8.  Expected cap = 11.4 pF",(force hi),(force low),,,,,,,,,,,
+,,,,"Via-3 chain, 5754 via-3, M4-CAPM over M3 (min via enclosure)",,,,,,,Force Low,,,,,Force High,
+4536,,,,"CAPM linewidth, L/W = 500/2.0",Force HI,Force LO,Meas HI,,Meas LO,,,,,,,,2
+,,,,"CAPM linewidth, L/W = 400/1.0",Force HI,Force LO,,Meas LO,,Meas HI,,,,,,,
+,,,,"Kelvin via-3, M4-CAPM over M3",,,,,,,force A,sense A,force B,sense B,,,
+,,,,"CAPM sheet rho, L/W = 45/4.5",,,,,,,,,,,High Pin,Low Pin,
+4538,,,,"M3-M3 serp/comb structure, M3 is under CAPM at min TDR S =1.2",Serp HI,Comb,open,open,open,open,open,Serp LO,,,,,2
+,,,,Total defect sensitive length = 2480 um,,,,,,,,,,,,,
+,,,,CAPM-CAPM serp/comb structure,,,,,,,,,Serp LO,Comb,Comb,Serp HI,
+,,,,Total defect sensitive length = 1005 um,,,,,,,,,,(sht to 11),(sht to 10),,
+4541,,,,"Large MiM2 capacitor, CAP2M over M4, 11 plates, each 40x40.  ",BOT plate,TOP plate,open,open,open,open,open,open,open,open,open,open,2
+,,,,"Total A = 17600, P = 1760.  Total expected capacitance 35.5 pF",,,,,,,,,,,,,
+4542,,,,"Periphery-intensive MiM2 cap, CAP2M over M4.  72 plates each 2x35.  Total A = 5040, P = 5328.  Total expected capacitance = 11.1 pF",BOT plate,TOP plate,open,open,open,open,,,,,,,2
+,,,,"Area-intensive MiM2 capacitor, CAP2M over M4.  5 plates each 35x35.",,,,,,,BOT plate,TOP plate,open,open,open,open,
+,,,,"Total A = 6125, P = 700.  Total expected capacitance = 12.4 pF",,,,,,,,,,,,,
+4543,,,,"Via-4 array, M5-M4 near CAP2M  (minimum via-4 space to CAP2M)",CAPM,M4-M3,open,open,open,open,,,,,,,3
+,,,,"For Via Shorts, 160 vias, each inside holes in CAPM",(force low),(force hi),,,,,,,,,,,
+,,,,"For cap meas, total A = 6054, P=6653.  Expected cap = 13.4 pF",(force hi),(force low),,,,,,,,,,,
+,,,,"Via-4 chain, 1392 via-4, M5-CAP2M over M4 (min via enclosure)",,,,,,,Force Low,,,,,Force High,
+4544,,,,"CAP2M linewidth, L/W = 500/2.0",Force HI,Force LO,Meas HI,,Meas LO,,,,,,,,3
+,,,,"CAP2M linewidth, L/W = 400/1.0",Force HI,Force LO,,Meas LO,,Meas HI,,,,,,,
+,,,,"Kelvin via-4, M5-CAP2M over M4",,,,,,,force A,sense A,force B,sense B,,,
+,,,,"CAP2M sheet rho, L/W = 45/4.5",,,,,,,,,,,High Pin,Low Pin,
+4545,,,,"M4-M4 serp/comb structure, M4 is under CAP2M at min TDR S = 1.0",Serp HI,Comb,open,open,open,open,open,Serp LO,,,,,3
+,,,,Total defect sensitive length = 2480 um,,,,,,,,,,,,,
+,,,,CAP2M-CAP2M serp/comb structure,,,,,,,,,Serp LO,Comb,Comb,Serp HI,
+,,,,Total defect sensitive length = 1005 um,,,,,,,,,,(sht to 11),(sht to 10),,
+4546,,,,"Large MiM capacitor, CAPM over M3, 11 plates, each 40x40.  ",BOT plate,TOP plate,open,open,open,open,open,open,open,open,open,open,3
+,,,,Same capacitor as 4530.  Caps have seas of via-2's placed under M3/CAPM,,,,,,,,,,,,,
+,,,,"Total A = 17600, P = 1760.  Total expected capacitance 35.5 pF",,,,,,,,,,,,,
+4548,,,,"CAPM-M3 and CAP2M-M4 capacitors, stacked on top of each other and connected together.  11 pairs of plates, each 40x40",BOT plate,TOP plate,open,open,open,open,open,open,open,open,open,open,3
+,,,,"Total A = 35200, P = 3520.  Total expected capacitance 71 pF",(Metal-4),(M3/M5),,,,,,,,,,,
+4549,,,,"Large MiM capacitor, CAP2M over M4, 11 plates, each 40x40.  ",BOT plate,TOP plate,open,open,open,open,open,open,open,open,open,open,3
+,,,,Same capacitor as 4531.  Caps have seas of via-3's placed under M4/CAP2M,,,,,,,,,,,,,
+,,,,"Total A = 17600, P = 1760.  Total expected capacitance 35.5 pF",,,,,,,,,,,,,
+5102,7,,,"143 stage, folded, fanout 1 inverter RO  with "" output""
+NMOS:  2*1.00/0.15   PMOS:  2*1.68/0.15",Divided output,Output,Vss,Vdd  osc,Vdd buffer / divider,Enable,,,Vss,,Vdd buffer / divider,,3
+,7,,,"71 stage, folded, fanout 3 inverter RO  with "" output""
+NMOS:  2*1.00/0.15   PMOS:  2*1.68/0.15",,,Vss,,Vdd buffer / divider,,Divided output,Output,Vss,Vdd  osc,Vdd buffer / divider,Enable,
+5108c,,,,"727 inverter stages, 10 stage divider",HOLD,vpwr for RO,raw out,vgnd,vpwr for buffers,divided out,,,,,,,3
+5109,7,,,"143 stage, folded, fanout 1 inverter RO  with "" output""
+NMOS:  2*1.00/0.15 (low Vt)   PMOS:  2*1.68/0.15",Divided output,Output,Vss,Vdd  osc,Vdd buffer / divider,Enable,,,,,,,
+,7,,,"71 stage, folded, fanout 3 inverter RO  with "" output""
+NMOS:  2*1.00/0.15 (low Vt)   PMOS:  2*1.68/0.15",,,,,,,Divided output,Output,Vss,Vdd  osc,Vdd buffer / divider,Enable,
+5109c,,,,"727 inverter stages, 10 stage divider",HOLD,vpwr for RO,raw out,vgnd,vpwr for buffers,divided out,,,,,,,3
+5128,7,,,"99 stage, folded, fanout 1 inverter RO  with "" output""
+NMOS:  2*1.00/0.15 (low Vt)   PMOS:  2*1.68/0.35 (lowVt)",Divided output,Output,Vss,Vdd  osc,Vdd buffer / divider,Enable,,,,,,,
+,,,,"49 stage, folded, fanout 3 inverter RO  with "" output""
+NMOS:  2*1.00/0.15 (low Vt)   PMOS:  2*1.68/0.35 (lowVt)",,,,,,,Divided output,Output,Vss,Vdd  osc,Vdd buffer / divider,Enable,
+5128c,,,,"502 inverter stages, 10 stage divider",HOLD,vpwr for RO,raw out,vgnd,vpwr for buffers,divided out,,,,,,,3
+5200,5,,,High-voltage p+ diff diode,,,,,,,,,,,,,3
+,,,,"Area Intensive, Area: 5 * (40 * 44.9) =  8,980 um2
+Area Intensive, Peri: 5 * 2 * (40+44.9) = 849 um",n-well,p+ area,p+ area,p+ area,p+ area,p+ area,,,,,,,
+,,,,"Peri Intensive, Area: 225 * 20.79 um2 = 4,677.7 um2
+Peri Intensive, Peri: 225 * 81.0 um =  18,225.0 um",n-well,,,,,,p+ peri,p+ peri,p+ peri,p+ peri,p+ peri,p+ peri,
+5203,5,,,Periphery NMOS and PMOS FETs (for overlap capacitance),,,,,,,,,,,,,3
+,,,,"NMOS: W/L = 600 * 15.645 / 0.15 = 9,387/0.15 ",substrate,Ngate,N gate,N S/D,N S/D,substrate,,,,,,,
+,,,,"PMOS: W/L = 584 * 15.045 / 0.15 = 8,786/0.15 ",,,,,,,P gate,P gate,P S/D,P S/D,n-well,n-well,
+5204,5,,,HV Periphery NMOS and PMOS FETs (for overlap capacitance),,,,,,,,,,,,,3
+,,,,"NMOS: W/L = 384 * 15.65 / 0.50 = 6,010/0.50 ",substrate,Ngate,N gate,N S/D,N S/D,substrate,,,,,,,
+,,,,"PMOS: W/L = 368 * 15.04 / 0.15 = 5,535/0.5",,,,,,,P gate,P gate,P S/D,P S/D,n-well,n-well,
+5205,Z,,,Low Vt n-diode; High Vt p-diode,,,,,,,,,,,,,3
+,,,,"N Area Intensive, Area: 2 * 40 * 44.9 = 1,796 um2 =  3,592 um2
+N Area Intensive, Peri: 2 * 2 * (40+44.9) = 339.6 um",substrate,n+ area,n+ area,,,,,,,,,,
+,,,,"N Peri Intensive, Area: 3 * 57 * 39.985 * 0.52 = 3,555.5 um2
+N Peri Intensive, Peri: 3 * 57 * 2 * (39.985+0.52) =  13,852.7 um",,,,n+ peri,n+ peri,n+ peri,,,,,,,
+,,,,"P Area Intensive, Area: 2 * 40 * 44.9 = 1,796 um2 =  3,592 um2
+P Area Intensive, Peri: 2 * 2 * (40+44.9) = 339.6 um",,,,,,,nwell,p+ area,p+ area,,,,
+,,,,"P Peri Intensive, Area: 3 * 57 * 39.985 * 0.52 = 3,555.5 um2
+P Peri Intensive, Peri: 3 * 57 * 2 * (39.985+0.52) =  13,852.7 um",,,,,,,,,,p+ peri,p+ peri,p+ peri,
+5207,5,,,"Low Vt NMOS, High Vt PMOS FETs (for overlap capacitance)",,,,,,,,,,,,,3
+,,,,"NMOS: W/L = 600 * 15.645 / 0.15 = 9,387/0.15 ",substrate,Ngate,N gate,N S/D,N S/D,substrate,,,,,,,
+,,,,"PMOS: W/L = 584 * 15.045 / 0.15 = 8,786/0.15 ",,,,,,,P gate,P gate,P S/D,P S/D,n-well,n-well,
+5208,5,,,Nwell-Psub diode,,,,,,,,,,,,,3
+,,,,"Peri Intensive, Area: 30 * 1.52 * 86.425 = 3,940.9 um2
+Peri Intensive, Peri: 30 * 2 * (1.52+86.425) um =  5,276.7 um",Nwell,Nwell,Psub,,,,,,,,,,
+,,,,"Area Intensive, Area: 9 * 47.425 * 88.27 = 37,675 um2
+Area Intensive, Peri: 9 * 2 * (47.425+88.27) = 2,442.5 um",,,Psub,Nwell,Nwell,Nwell,Nwell,Nwell,Nwell,Nwell,Nwell,Nwell,
+5209,5,,,n-diode; p-diode,,,,,,,,,,,,,3
+,,,,"N Area Intensive, Area: 2 * 40 * 44.9 = 1,796 um2 =  3,592 um2
+N Area Intensive, Peri: 2 * 2 * (40+44.9) = 339.6 um",substrate,n+ area,n+ area,,,,,,,,,,
+,,,,"N Peri Intensive, Area: 3 * 57 * 39.985 * 0.52 = 3,555.5 um2
+N Peri Intensive, Peri: 3 * 57 * 2 * (39.985+0.52) =  13,852.7 um",substrate,,,n+ peri,n+ peri,n+ peri,,,,,,,
+,,,,"P Area Intensive, Area: 2 * 40 * 44.9 = 1,796 um2 =  3,592 um2
+P Area Intensive, Peri: 2 * 2 * (40+44.9) = 339.6 um",,,,,,,p +area,p+ area,,,,n-well,
+,,,,"P Peri Intensive, Area: 3 * 57 * 39.985 * 0.52 = 3,555.5 um2
+P Peri Intensive, Peri: 3 * 57 * 2 * (39.985+0.52) =  13,852.7 um",,,,,,,,,p+ peri,p+ peri,p+ peri,n-well,
+5210,5,,,High-voltage n+ diff diode,,,,,,,,,,,,,3
+,,,,"Area Intensive, Area: 5 * 1,796 um2 =  8,980 um2
+Area Intensive, Peri: 5 * 169.8 um = 849 um",substrate,n+ area,n+ area,n+ area,n+ area,n+ area,,,,,,,
+,,,,"Peri Intensive, Area: 225 * 20.79 um2 = 4,677.7 um2
+Peri Intensive, Peri: 225 * 81.0 um =  18,225.0 um",substrate,,,,,,n+ peri,n+ peri,n+ peri,n+ peri,n+ peri,n+ peri,
+5211,8,pnp_05v5_W0p68L0p68,,lateral PNP BJT (pnppar) (Ae=0.68x0.68um2) m=1,E,B,C-Psub,,,,,,,,,,3
+,,pnp_05v5_W0p68L0p68,,lateral PNP BJT (pnppar) (Ae=0.68x0.68um2) m=1680,,,,B,C-Psub,E,,,,,,,
+5212,5,,,Deep N well-Pwell diode,,,,,,,,,,,,,3
+,,,,"Peri Intensive, Area: 26 * 1.29 * 100 = 3354 um2
+Peri Intensive, Peri: 26 * 2 * (1.29+100) um =  5,267.08 um",Psub,D Nwell,Pwell,,,,,,,,,,
+,,,,"Area Intensive, Area: 9 * 37.7 * 77.7 = 26363.61 um2
+Area Intensive, Peri: 9 * 2 * (37.7+77.7) = 2077.2 um",Psub,,,D Nwell,Pwell,Pwell,Pwell,Pwell,Pwell,Pwell,Pwell,Pwell,
+5213,5,,,Deep N well-Psub diode,,,,,,,,,,,,,3
+,,,,"Peri Intensive, Area: 6 * 3 * 100 = 1800 um2
+Peri Intensive, Peri: 6 * 2 * (3+100) um =  1236 um",Psub,Dnwell,,,,,,,,,,,
+,,,,"Area Intensive, Area: 9 * 40.5 * 80.5 = 29342.25 um2
+Area Intensive, Peri: 9 * 2 * (40.5+80.5) = 2178 um",Psub,,D Nwell,D Nwell,D Nwell,D Nwell,D Nwell,D Nwell,D Nwell,D Nwell,D Nwell,D Nwell,
+5215,5,,,Native n-diode,,,,,,,,,,,,,3
+,,,,"Area Intensive, Area: 5 * 44.9 * 40 = 8980 um2
+Area Intensive, Peri: 5 * 2 * (40 + 44.9) = 849 um",sub,Ndiff,Ndiff,Ndiff,Ndiff,Ndiff,,,,,,,
+,,,,"Peri Intensive, Area: 225 * 0.52 * 39.985 = 4678.245 um2
+Peri Intensive, Peri: 225 * 2 * (0.52+39.985) um =  18227.25 um",sub,,,,,,Ndiff,Ndiff,Ndiff,Ndiff,Ndiff,Ndiff,
+5217,5,,,HV Native NMOS and ntv Native NMOS  (for overlap capacitance),,,,,,,,,,,,,3
+,,,,"Native NMOS: W/L = 384 * 15.65 / 0.50 = 6,010/0.50 ",substrate,gate, gate, S/D, S/D,substrate,,,,,,,
+,,,,NTV native NMOS: W/L = 284 * 15.65 / 0.9 = 6010/0.50 ,substrate,,,,,, gate, gate, S/D, S/D,substrate,substrate,
+5219,5,,,"Low Vt NMOS, High Vt PMOS FETs (for overlap capacitance)",,,,,,,,,,,,,3
+,,,,"NMOS: W/L = 600 * 15.645 / 0.15 = 9,387/0.15 ",substrate,Ngate,N gate,N S/D,N S/D,substrate,,,,,,,
+,,,,"PMOS: W/L = 584 * 15.045 / 0.15 = 8,786/0.15 ",,,,,,,P gate,P gate,P S/D,P S/D,n-well,n-well,
+5220,5,,,Low Vt n-diode; Low Vt p-diode,,,,,,,,,,,,,3
+,,,,"N Area Intensive, Area: 2 * 40 * 44.9 = 1,796 um2 =  3,592 um2
+N Area Intensive, Peri: 2 * 2 * (40+44.9) = 339.6 um",substrate,n+ area,n+ area,,,,,,,,,,
+,,,,"N Peri Intensive, Area: 3 * 57 * 39.985 * 0.52 = 3,555.5 um2
+N Peri Intensive, Peri: 3 * 57 * 2 * (39.985+0.52) =  13,852.7 um",,,,n+ peri,n+ peri,n+ peri,,,,,,,
+,,,,"P Area Intensive, Area: 2 * 40 * 44.9 = 1,796 um2 =  3,592 um2
+P Area Intensive, Peri: 2 * 2 * (40+44.9) = 339.6 um",,,,,,,nwell,p+ area,p+ area,,,,
+,,,,"P Peri Intensive, Area: 3 * 57 * 39.985 * 0.52 = 3,555.5 um2
+P Peri Intensive, Peri: 3 * 57 * 2 * (39.985+0.52) =  13,852.7 um",,,,,,,,,,p+ peri,p+ peri,p+ peri,
+5223,8,npn_05v5_W1p00L1p00,npnpar1x1,NPN BJT (npnpar 1x1) (Ae=1.0x1.0 um2) m=1 mismatch,Psub,E1,B1,C1,C2,B2,,,,,,,3
+,,npn_05v5_W1p00L2p00,npnpar1x2,NPN BJT (npnpar 1x2) (Ae=1.0x2.0 um2) m=1 mismatch,Psub-E,,,,,,E1,B1,C1,C2,B2,,
+5226,8,npn_05v5_W1p00L1p00,npnpar1x1,NPN BJT (npnpar 1x1) (Ae=1.0x1.0 um2) m=1,Psub,C,B,E,,,,,,,,,3
+,,npn_05v5_W1p00L2p00,npnpar1x2,NPN BJT (npnpar 1x2) (Ae=1.0x2.0 um2) m=1,Psub,,,,C,B,E,,,,,,
+,,npn_05v5_W1p00L4p00,npnpar1x4,NPN BJT (npnpar 1x4) (Ae=1.0x4.0 um2) m=1,Psub,,,,,,,C,B,E,OPEN,OPEN,
+5230,8,pnp_05v5_W3p40L3p40,pnppar10x,lateral PNP BJT (pnppar10X) (Ae=3.4x3.4um2) m=1,E,B,C-Psub,,,,,,,,,,3
+,,pnp_05v5_W3p40L3p40,pnppar10x,lateral PNP BJT (pnppar10X) (Ae=3.4x3.4um2) mismatch,,,,c1/c2,b1,e1,e2,b2,,,,,
+5290,,nfet_01v8,nshort,nshort; w=0.36; l=0.15; m=2280;,b,g,d,,,,,,,,,,3
+,,nfet_01v8,nshort,nshort; w=0.39; l=0.15; m=2190;,b,g,,d,,,,,,,,,
+,,nfet_01v8,nshort,nshort; w=0.65; l=0.15; m=1560;,b,g,,,d,,,,,,,,
+,,nfet_01v8,nshort,nshort; w=0.55; l=0.15; m=1740;,b,g,,,,d,,,,,,,
+,,nfet_01v8,nshort,nshort; w=0.64; l=0.15; m=1590;,b,g,,,,,d,,,,,,
+,,nfet_01v8,nshort,nshort; w=0.84; l=0.15; m=1290;,b,g,,,,,,d,,,,,
+,,nfet_01v8,nshort,nshort; w=0.42; l=0.5; m=1680;,b,g,,,,,,,d,,,,
+,,nfet_01v8,nshort,nshort; w=0.6; l=0.15; m=1650;,b,g,,,,,,,,d,,,
+,,nfet_01v8,nshort,nshort; w=0.82; l=0.18; m=1276;,b,g,,,,,,,,,d,,
+,,nfet_01v8,nshort,nshort; w=0.94; l=0.15; m=1170;,b,g,,,,,,,,,,d,
+5291,,pfet_01v8_hvt,phighvt,phighvt; w=0.36; l=0.15; m=2280;,b,g,s,,,,,,,,,,3
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.39; l=0.15; m=2190;,b,g,,s,,,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.65; l=0.15; m=1560;,b,g,,,s,,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.55; l=0.15; m=1740;,b,g,,,,s,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.64; l=0.15; m=1590;,b,g,,,,,s,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.84; l=0.15; m=1290;,b,g,,,,,,s,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.5; m=1680;,b,g,,,,,,,s,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.6; l=0.15; m=1650;,b,g,,,,,,,,s,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.82; l=0.18; m=1276;,b,g,,,,,,,,,s,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.94; l=0.15; m=1170;,b,g,,,,,,,,,,s,
+6200,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"W =  5.73, L = 2.865, sq = 0.5",V1,V2,,,,,,,,,,,
+,,,,"W =  5.73, L = 5.73, sq = 1",,V1,V2,,,,,,,,,,
+,,,,"W =  5.73, L = 11.46, sq =2",,,V1,V2,,,,,,,,,
+,,,,"W =  5.73, L = 22.92, sq =4",,,,V1,V2,,,,,,,,
+,,,,"W =  5.73, L = 114.6, sq =20",,,,,V1,,V2,,,,,,
+,,,,"W =  2.85, L = 1.425, sq =0.5",,,,,,,V1,V2,,,,,
+,,,,"W =  2.85, L = 2.85, sq =1",,,,,,,,V1,V2,,,,
+,,,,"W =  2.85, L = 5.7, sq =2",,,,,,,,,V1,V2,,,
+,,,,"W =  2.85, L = 11.4, sq =4",,,,,,,,,,V1,V2,Substrate,
+6201,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"W =  1.41, L = 0.705, sq = 0.5",,V1,V2,,,,,,,,,,
+,,,,"W =  1.41, L =1.41, sq = 1",,,V1,V2,,,,,,,,,
+,,,,"W =  1.41, L = 2.82, sq =2",,,,V1,V2,,,,,,,,
+,,,,"W =  1.41, L = 5.64, sq =4",,,,,V1,V2,,,,,,,
+,,,,"W =  1.41, L = 28.2, sq =20",,,,,,V1,V2,,,,,,
+,,,,"W =  0.69, L = 0.345, sq = 0.5  (will not work for any routes using RRPM mask)",,,,,,,V1,V2,,,,,
+,,,,"W =  0.69, L = 0.69, sq =1",,,,,,,,V1,V2,,,,
+,,,,"W =  0.69, L = 1.38, sq =2",,,,,,,,,V1,V2,,,
+,,,,"W =  0.69, L = 2.76, sq =4",,,,,,,,,,V1,V2,Substrate,
+6202,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"W =  0.33, L = 0.33, sq = 1 (will not work for any routes using RRPM mask)",,,,V1,V2,,,,,,,,
+,,,,"W =  0.33, L = 0.66, sq =2",,,,,V1,V2,,,,,,,
+,,,,"W =  0.33, L = 1.32, sq =4",,,,,,V1,V2,,,,,,
+,,,,"W =  0.33, L = 6.6, sq =20",,,,,,,V1,V2,,,,,
+,,,,"W =  0.69, L = 13.8, sq = 20",,,,,,,,V1,V2,,,,
+,,,,"W =  2.85, L = 57.0, sq =20",,,,,,,,,V1,,V2,Substrate,
+6203,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 0.33, L = 6.60, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 0.33, L = 1.32, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 0.33, L = 0.66, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 0.33, L = 0.33, sq = 1",,,,,,,,,,Common,R1,R2,
+6204,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 0.69, L = 13.8, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 0.69, L = 2.76, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 0.69, L = 1.38, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 0.69, L = 0.69, sq = 1",,,,,,,,,,Common,R1,R2,
+6205,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 1.41, L = 28.2, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 1.41, L = 13.142, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 1.41, L = 2.82, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 1.41, L = 1.41, sq = 1",,,,,,,,,,Common,R1,R2,
+6206,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 2.85, L = 57.0, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 5.7, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 2.85, L = 2.85, sq = 1",,,,,,,,,,Common,R1,R2,
+6207,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 5.73, L = 5.73, sq = 1",R1-Shared,R1-A,R1-B,,,,,,,,,,
+,,,,"Mismatch W = 5.73, L = 11.46, sq = 2",,,,R2-Shared,R2-A,R2-B,,,,,,,
+,,,,"Mismatch W = 5.73, L = 22.92, sq = 4",,,,,,,R3-Shared,R3-A,R3-B,,,,
+,,,,"Mismatch W = 5.73, L = 2.865, sq = 0.5",,,,,,,,,,R4-Shared,R4-A,R4-B,
+6208,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 0.69, L = 0.345, sq = 0.5 (will not work for any routes using RRPM mask)",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 1.41, L = 0.705, sq = 0.5",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 1.425, sq = 0.5",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 5.73, L = 114.6, sq = 20",,,,,,,,,,Common,R1,R2,
+6209,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 2.85, L = 11.4, 5.48 spacing",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, 10.48 spacing",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, 25.48 spacing",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, min space, no dummies",,,,,,,,,,Common,R1,R2,
+6210,,,,300 ohm/sq P+  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 2.85, L = 57.0, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 5.7, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 2.85, L = 2.85, sq = 1",,,,,,,,,,Common,R1,R2,
+6214,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"W =  5.73, L = 2.865, sq = 0.5",V1,V2,,,,,,,,,,,
+,,,,"W =  5.73, L = 5.73, sq = 1",,V1,V2,,,,,,,,,,
+,,,,"W =  5.73, L = 11.46, sq =2",,,V1,V2,,,,,,,,,
+,,,,"W =  5.73, L = 22.92, sq =4",,,,V1,V2,,,,,,,,
+,,,,"W =  5.73, L = 114.6, sq =20",,,,,V1,,V2,,,,,,
+,,,,"W =  2.85, L = 1.425, sq =0.5",,,,,,,V1,V2,,,,,
+,,,,"W =  2.85, L = 2.85, sq =1",,,,,,,,V1,V2,,,,
+,,,,"W =  2.85, L = 5.7, sq =2",,,,,,,,,V1,V2,,,
+,,,,"W =  2.85, L = 11.4, sq =4",,,,,,,,,,V1,V2,Substrate,
+6215,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"W =  1.41, L = 0.705, sq = 0.5",,V1,V2,,,,,,,,,,
+,,,,"W =  1.41, L =1.41, sq = 1",,,V1,V2,,,,,,,,,
+,,,,"W =  1.41, L = 2.82, sq =2",,,,V1,V2,,,,,,,,
+,,,,"W =  1.41, L = 5.64, sq =4",,,,,V1,V2,,,,,,,
+,,,,"W =  1.41, L = 28.2, sq =20",,,,,,V1,V2,,,,,,
+,,,,"W =  0.69, L = 0.345, sq = 0.5  (may not work for routes using URPM mask)",,,,,,,V1,V2,,,,,
+,,,,"W =  0.69, L = 0.69, sq =1",,,,,,,,V1,V2,,,,
+,,,,"W =  0.69, L = 1.38, sq =2",,,,,,,,,V1,V2,,,
+,,,,"W =  0.69, L = 2.76, sq =4",,,,,,,,,,V1,V2,Substrate,
+6216,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"W= 0.33, l = 0.33, sq = 1 (may not work for routes using URPM mask)",,,,V1,V2,,,,,,,,
+,,,,"W= 0.33, l = 0.66, sq =2",,,,,V1,V2,,,,,,,
+,,,,"W= 0.33, l = 1.32, sq =4",,,,,,V1,V2,,,,,,
+,,,,"W= 0.33, l = 6.6, sq =20",,,,,,,V1,V2,,,,,
+,,,,"W= 0.69, l = 13.8, sq = 20",,,,,,,,V1,V2,,,,
+,,,,"W= 2.85, l = 57.0, sq =20",,,,,,,,,V1,,V2,Substrate,
+6217,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 0.33, L = 6.60, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 0.33, L = 1.32, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 0.33, L = 0.66, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 0.33, L = 0.33, sq = 1 (may not work for routes using URPM mask)",,,,,,,,,,Common,R1,R2,
+6218,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 0.69, L = 13.8, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 0.69, L = 2.76, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 0.69, L = 1.38, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 0.69, L = 0.69, sq = 1",,,,,,,,,,Common,R1,R2,
+6219,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 1.41, L = 28.2, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 1.41, L = 13.142, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 1.41, L = 2.82, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 1.41, L = 1.41, sq = 1",,,,,,,,,,Common,R1,R2,
+6220,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 2.85, L = 57.0, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 5.7, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 2.85, L = 2.85, sq = 1",,,,,,,,,,Common,R1,R2,
+6221,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 5.73, L = 5.73, sq = 1",R1-Shared,R1-A,R1-B,,,,,,,,,,
+,,,,"Mismatch W = 5.73, L = 11.46, sq = 2",,,,R2-Shared,R2-A,R2-B,,,,,,,
+,,,,"Mismatch W = 5.73, L = 22.92, sq = 4",,,,,,,R3-Shared,R3-A,R3-B,,,,
+,,,,"Mismatch W = 5.73, L = 2.865, sq = 0.5",,,,,,,,,,R4-Shared,R4-A,R4-B,
+6222,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 0.69, L = 0.345, sq = 0.5  (may not work for routes using URPM mask)",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 1.41, L = 0.705, sq = 0.5",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 1.425, sq = 0.5",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 5.73, L = 114.6, sq = 20",,,,,,,,,,Common,R1,R2,
+6223,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 2.85, L = 11.4, 5.48 spacing",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, 10.48 spacing",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, 25.48 spacing",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, min space, no dummies",,,,,,,,,,Common,R1,R2,
+6224,,,,2K ohm/sq P-  POLY RESISTOR - 2 micron trench contacts oriented || to current flow,,,,,,,,,,,,,3
+,,,,"Mismatch W = 2.85, L = 57.0, sq = 20",Common,R1,R2,,,,,,,,,,
+,,,,"Mismatch W = 2.85, L = 11.4, sq = 4",,,,Common,R1,R2,,,,,,,
+,,,,"Mismatch W = 2.85, L = 5.7, sq = 2",,,,,,,Common,R1,R2,,,,
+,,,,"Mismatch W = 2.85, L = 2.85, sq = 1",,,,,,,,,,Common,R1,R2,
+7003,1,,,HV n-chan field oxide FETs poly1 gate,, , ,,,,,,,,,,3
+,,,,poly1 gate w/l = 1000/0.38 (diff spacing =0.48),substrate,source,gate 1,drain 1,gate 2,drain 2,,,,,,,
+,,,,poly1 gate w/l = 1000/0.35 (diff spacing =0.45),,,,,,,,source,gate 1,drain 1,gate 2,drain 2,
+7012,5,,,"HV n-chan gate oxide capacitor (GOX55), no source/drain: large area",,,,,,,,,,,,,3
+,,,,n+ diff: 10 x W/L=10.82/42.72; poly: 10 x W/L=13.3/44.26,substrate,gate,substrate,gate,substrate,gate,,,,,,,
+,5,,,"HV p-chan gate oxide capacitor (GOX55), no source/drain: large area",,,,,,,,,,,,,
+,,,,p+ diff: 10 x W/L = 9.77/41.14; poly: 10 x W/L=12.45/42.78,,,,,,,nwell,gate,nwell,gate,nwell,gate,
+7015,1,,,Deep Nwell Resistor W/L = 25/25: 1 sq.,Psub,DNW R1,DNW R2,,,,,,,,,,3
+,,,,Deep Nwell to Deep Nwell Isolation,,,,,,,,,,,,,
+,,,,DNW to DNW Space = 11.5um,Psub,,,DNW Hi,DNW Lo,,,,,,,,
+,,,,DNW to DNW Space =   9.5um,Psub,,,,,DNW Hi,DNW Lo,,,,,,
+,,,,DNW to DNW Space =   7.5um,Psub,,,,,,,DNW Hi,DNW Lo,,,,
+,,,,     DNW to DNW Space =   5.5um,Psub,,,,,,,,,DNW Hi,DNW Lo,,
+7016,1,,,Isolated Pwell Resistor under Field,,,,,,,,,,,,,3
+,,,,Pwell Resistor W/L =25/25: 1 sq.,DNW,PW R1,PW R2,,,,,,,,,Psub,
+,,,,Pwell to Pwell Isolation in DNW,,,,,,,,,,,,,
+,,,,Pwell to Pwell Space = 1.40um,DNW,,,PW Hi,PW Lo,,,,,,,Psub,
+,,,,Pwell to Pwell Space = 1.20um,DNW,,,,,PW Hi,PW Lo,,,,,Psub,
+,,,,Pwell to Pwell Space = 1.00um,DNW,,,,,,,PW Hi,PW Lo,,,Psub,
+,,,,Pwell to Pwell Space = 0.84um,DNW,,,,,,,,,PW Hi,PW Lo,Psub,
+7017,1,,,Isolated Pwell Resistor under N+ Active,,,,,,,,,,,,,3
+,,,,Pwell Resistor W/L =25/25: 1 sq.,DNW,PW R1,PW R2,,,,,,,,,Psub,
+,,,,Nwell to Deep Nwell Isolation,,,,,,,,,,,,,
+,,,,Nwell to DNW Space = 7.0um,DNW,,,NW Hi,DNW Lo,,,,,,,Psub,
+,,,,Nwell to DNW Space = 6.0um,DNW,,,,,NW Hi,DNW Lo,,,,,Psub,
+,,,,Nwell to DNW Space = 5.0um,DNW,,,,,,,NW Hi,DNW Lo,,,Psub,
+,,,,Nwell to DNW Space = 4.5um,DNW,,,,,,,,,NW Hi,DNW Lo,Psub,
+7018,1,,,High Voltage Nwell to Nwell Isolation,,,,,,,,,,,,,3
+,,,,Nwell to Nwell Space = 2.00um,,NW Hi,NW Lo,,,,,,,,,Psub,
+,,,,Nwell to Nwell Space = 2.50um,,,,NW Hi,NW Lo,,,,,,,Psub,
+,,,,Nwell to Nwell Space = 1.50um,,,,,,NW Hi,NW Lo,,,,,Psub,
+,,,,Nwell to Nwell Space = 1.27um,,,,,,,,NW Hi,NW Lo,,,Psub,
+,,,,Nwell to Nwell Space = 1.00um,,,,,,,,,,NW Hi,NW Lo,Psub,
+7019,1,,,"HV N+diff Isolation, Poly Gated",,,,,,,,,,,,,3
+,,,,Gate W/L = 500/0.15 (diff space 0.30),Psub,Source,Gate,Drain,,,,,,,,,
+,,,,Gate W/L = 500/0.15 (diff space 0.30),Psub,,,Source,Gate,Drain,,,,,,,
+,,,,Gate W/L = 500/0.15 (diff space 0.27),Psub,,,,,,,Source,Gate,Drain,,,
+,,,,Gate W/L = 500/0.15 (diff space 0.27),Psub,,,,,,,,,Source,Gate,Drain,
+7024,1,,,HV p+/p-well field FET w/ poly 1 gate,,,,,,,,,,,,,3
+,,,,"p+ / p-well w/l = (6.56*375) / 0.33 (P+ diff to pwell 0.33, poly to diff 0.05) with NWM corner rounding",substrate,n-well,gate,p+,,,,,,,,,
+,,,,HV P+diff Isolation under Poly Gate,,,,,,,,,,,,,
+,,,,Gate W/L = 920/0.15 (diff space 0.30),,,,,,,Nwell,S: p+,Gate,D: p+,,,
+,,,,Gate W/L = 760/0.17 (diff space 0.30),,,,,,,Nwell,S: p+,,,Gate,D: p+,
+,,,,,,,,,,,,,,,,,
+7030,1,,,HV n+/n-well field FET w/ poly 1 gate,,,,,,,,,,,,,3
+,,,,"n+ / n-well w/l = 26 x 40 / 0.43 (diff to nwell 0.43, poly to diff 0.10)",substrate,n-well,gate,n+ diff,,,,,,,,,
+,,,,"n+ / n-well w/l = (6.56*180) / 0.43 (N+ diff to nwell 0.43, poly to diff 0.05) with NWM corner rounding",substrate,n-well,,,gate,n+ diff,,,,,,,
+,,,,HV p-chan field FET w/ poly1 gate,, , ,,,,,,,,,,
+,,,,"p+ / p+ w/l = 23 x 40 / 0.48 (diff to diff 0.48, poly to diff 0.05)",,,,,,,n-well,p+ diff,gate,p+ diff,,,
+,,,,"p+ / p+ w/l = 19 x 40 / 0.45 (diff to diff 0.45, poly to diff 0.05)",,,,,,,n-well,p+ diff,,,gate,p+ diff,
+7031,1,,,HV p+/p-well field FET w/ poly 1 gate,,,,,,,,,,,,,3
+,,,,"p+ / p-well w/l = 22 x 40 / 0.33 (diff to pwell 0.33, poly to diff 0.05)",n-well,substrate,gate,p+,,,,,,,,,
+,,,,"p+ / p-well w/l = 22 x 40 / 0.33 (diff to pwell 0.33, poly to diff 0.05)",n-well,substrate,,,gate,p+,,,,,,,
+,,,,p+/p-well field FET w/ poly 1 gate,,,,,,,,,,,,,
+,,,,"p+ / p-well w/l = (6.56*200) / 0.18 (P+ diff to pwell 0.18, poly to diff 0.05) with NWM corner rouding",,,,,,,Substrate,n-well,gate,p+,,,
+,,,,"p+ / p-well w/l = (6.56*165) / 0.15 (P+ diff to pwell 0.15, poly to diff 0.05) with NWM corner rounding ", , , , , , ,Substrate,n-well,,,gate,p+,
+7036,1,,,Pwell in Deep Nwell to Psub Isolation,,,,,,,,,,,,,3
+,,,,"Pwell to Psub Space = 0.65um, W = 8 x 43.70um",DNW,Pwell,,,,,,,,,,Psub,
+,,,,"Pwell to Psub Space = 0.84um, W = 8 x 43.70um",DNW,,,Pwell,,,,,,,,Psub,
+,,,,"Pwell to Psub Space = 1.03um, W = 8 x 43.70um",DNW,,,,,Pwell,,,,,,Psub,
+,,,,"Pwell to Psub Space = 1.20um, W = 8 x 43.70um",DNW,,,,,,,Pwell,,,,Psub,
+,,,,"Pwell to Psub Space = 1.40um, W = 8 x 43.70um",DNW,,,,,,,,,Pwell,,Psub,
+7137,5,,,HV n-chan gate oxide capacitor: field-edge intensive,substrate,gate,substrate,gate,substrate,gate,,,,,,,3
+,,,,"FOM w/s = 0.42/0.48, Active Area = 1740.13 um2, FOX Perimeter = 6776 um",,,,,,,,,,,,,
+,5,,,Hv p-chan gate oxide capacitor: field-edge intensive,,,,,,,n-well,gate,n-well,gate,n-well,gate,
+,,,,"FOM w/s = 0.42/0.48, Active Area = 2135 um2, FOX Perimeter = 10270.8 um",,,,,,,,,,,,,
+7200,4,,,"VHV DE NMOS: 50/0.925 (""L=0.7"") inside DNW",Pwell,G,S,D,,,,,,,,,3
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7"") inside DNW",Pwell,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS:   20/2.425 (""L=2.2"") inside DNW",Pwell,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS:   5/0.925 (""L=0.7"") inside DNW",Pwell,G,,,,,,,S,D,,,
+,,,,Leave this device Blank,,,,,,,,,,,Psub,,
+7201,4,,,"VHV DE NMOS: 60/0.925 (""L=0.7"") inside DNW",Pwell,G,S,D,,,,,,,,,3
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7"") inside DNW",Pwell,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS:   20/2.425 (""L=2.2"") inside DNW",Pwell,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS:   5/2.425 (""L=2.2"") inside DNW",Pwell,G,,,,,,,S,D,,,
+,,,,Leave this device Blank,,,,,,,,,,,Psub,,
+7202,4,,,"VHV DE NMOS:   5/0.925 (""L=0.7""), sa=0.68",B,G,S,D,,,,,,,,,3
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7""), sa=0.48",B,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7""), sa=0.68",B,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7""), sa=1.11",B,G,,,,,,,S,D,,,
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7""), sa=2.5",B,G,,,,,,,,,S,D,
+7203,4,,,"VHV DE PMOS: 20/0.920 (""L=0.66""), sa=0.68",B,G,S,D,,,,,,,,,3
+,,,,"VHV DE PMOS:   5/0.920 (""L=0.66""), sa=0.48",B,G,,,S,D,,,,,,,
+,,,,"VHV DE PMOS:   5/0.920 (""L=0.66""), sa=0.68",B,G,,,,,S,D,,,,,
+,,,,"VHV DE PMOS:   5/0.920 (""L=0.66""), sa=1.11",B,G,,,,,,,S,D,,,
+,,,,"VHV DE PMOS:   5/0.920 (""L=0.66""), sa=2.5",B,G,,,,,,,,,S,D,
+7204,4,,,"VHV DE NMOS:   5/0.925 (""L=0.7""), sa=2.5",B,G,S,D,,,,,,,,,3
+,,,,"VHV DE NMOS: 20/2.425 (""L=2.2""), sa=0.48",B,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS: 20/2.425 (""L=2.2""), sa=0.68",B,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS: 20/2.425 (""L=2.2""), sa=1.11",B,G,,,,,,,S,D,,,
+,,,,"VHV DE NMOS: 20/2.425 (""L=2.2""), sa=2.5",B,G,,,,,,,,,S,D,
+7205,4,,,"VHV DE PMOS: 20/0.920 (""L=0.66""), sa=2.5",B,G,S,D,,,,,,,,,4
+,,,,"VHV DE PMOS: 20/2.420 (""L=2.16""), sa=0.48",B,G,,,S,D,,,,,,,
+,,,,"VHV DE PMOS: 20/2.420 (""L=2.16""), sa=0.68",B,G,,,,,S,D,,,,,
+,,,,"VHV DE PMOS: 20/2.420 (""L=2.16""), sa=1.11",B,G,,,,,,,S,D,,,
+,,,,"VHV DE PMOS: 20/2.420 (""L=2.16""), sa=2.5",B,G,,,,,,,,,S,D,
+7206,4,,,"VHV DE NMOS: 60/0.925 (""L=0.7"")",B,G,S,D,,,,,,,,,4
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7"")",B,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS:   12/0.925 (""L=0.7"")",B,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS:   5/0.925 (""L=0.7"")",B,G,,,,,,,S,D,,,
+,,,,"VHV DE NMOS:   5/2.425 (""L=2.2"")",B,G,,,,,,,,,S,D,
+7207,4,,,"VHV DE PMOS: 60/0.920 (""L=0.66"")",B,G,S,D,,,,,,,,,4
+,,,,"VHV DE PMOS: 20/0.920 (""L=0.66"")",B,G,,,S,D,,,,,,,
+,,,,"VHV DE PMOS:   12/0.920 (""L=0.66"")",B,G,,,,,S,D,,,,,
+,,,,"VHV DE PMOS:   5/0.920 (""L=0.66"")",B,G,,,,,,,S,D,,,
+,,,,"VHV DE PMOS:   5/2.420 (""L=2.16"")",B,G,,,,,,,,,S,D,
+7208,4,,,"VHV DE NMOS: 50/0.925 (""L=0.7"")  inside DNW",B,G,S,D,,,,,,,,,4
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7"")  inside DNW",B,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS: 20/2.425 (""L=2.2"")  inside DNW",B,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS:   5/0.925 (""L=0.7"")  inside DNW",B,G,,,,,,,S,D,,,
+,,,,"VHV DE NMOS:   5/2.425 (""L=2.2"")  inside DNW",B,G,,,,,,,,,S,D,
+7209,4,,,"VHV DE NMOS: 60/0.925 (""L=0.7"")  inside DNW",B,G,S,D,,,,,,,,,4
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7"")  inside DNW",B,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS:   12/0.925 (""L=0.7"")  inside DNW",B,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS:   5/0.925 (""L=0.7"")  inside DNW",B,G,,,,,,,S,D,,,
+,,,,"VHV DE NMOS:   5/2.425 (""L=2.2"")  inside DNW",B,G,,,,,,,,,S,D,
+7210,4,,,"VHV DE NMOS: 50/0.925 (""L=0.7"")",B,G,S,D,,,,,,,,,4
+,,,,"VHV DE NMOS: 20/0.925 (""L=0.7"")",B,G,,,S,D,,,,,,,
+,,,,"VHV DE NMOS: 20/2.425 (""L=2.2"")",B,G,,,,,S,D,,,,,
+,,,,"VHV DE NMOS:   5/0.925 (""L=0.7"")",B,G,,,,,,,S,D,,,
+,,,,"VHV DE NMOS:   5/2.425 (""L=2.2"")",B,G,,,,,,,,,S,D,
+7211,4,,,"VHV DE PMOS: 50/0.920 (""L=0.66"")",B,G,S,D,,,,,,,,,4
+,,,,"VHV DE PMOS: 20/0.920 (""L=0.66"")",B,G,,,S,D,,,,,,,
+,,,,"VHV DE PMOS: 20/2.420 (""L=2.16"")",B,G,,,,,S,D,,,,,
+,,,,"VHV DE PMOS:   5/0.920 (""L=0.66"")",B,G,,,,,,,S,D,,,
+,,,,"VHV DE PMOS:   5/2.420 (""L=2.16"")",B,G,,,,,,,,,S,D,
+7212,5,,,VHV DE NMOS: Gate/Drain Overlap Cap,,,,,,,,,,,,,4
+,,,,"VHV DE NMOS: 3188/0.936 (""L=0.7"")",B,G,S,D,,,,,,,,,
+7213,5,,,VHV DE PMOS: Gate/Drain Overlap Cap,,,,,,,,,,,,,4
+,,,,"VHV DE PMOS: 2645.6/0.92 (""L=0.66"")",B,G,S,D,,,,,,,,,
+7700c,10,,,"Dense Pad CBCM - POLY 1x 1x (0.15 0.21)
+load length - stub length = 22.14",Istub,Iload,Vp,Vn,Vpwr,Vgnd,,,,,,,4
+,10,,,"Dense Pad CBCM - LI1 1x 1x (0.17 0.18)
+load length - stub length = 22.14",,,,,,,Istub,Iload,Vp,Vn,Vpwr,Vgnd,
+7704c,10,,,"Dense Pad CBCM - M1 1x 1x (0.14 0.14)
+load length - stub length = 22.14",Istub,Iload,Vp,Vn,Vpwr,Vgnd,,,,,,,4
+,10,,,"Dense Pad CBCM - M2 1x 1x (0.14 0.14)
+load length - stub length = 22.14",,,,,,,Istub,Iload,Vp,Vn,Vpwr,Vgnd,
+7712a,10,,,"Dense Pad CBCM - M3 1x 1x (0.3 0.3) - S8Q
+load length - stub length = 16.03",Istub,Iload,Vp,Vn,Vpwr,Vgnd,,,,,,,4
+,10,,,"Dense Pad CBCM - PY (2.0 4.0) - S8Q
+load length - stub length = 22.105",,,,,,,Istub,Iload,Vp,Vn,Vpwr,Vgnd,
+7719,,,,top:met5 width:2.000 space:4.000 bot:met4 width:0.000 space:0.000 load-stub length:22.085 (S8PIR/PF),istub_2,iload_2,vp_2,vn_2,vpwr_2,,,,,,,,4
+,,,,top:met5 width:1.600 space:1.600 bot:sub width:0.000 space:0.000 load-stub length:22.085 (S8PIR/PF),,,,,,,istub_1,iload_1,vp_1,vn_1,vpwr_1,,
+7721c,10,,,"Dense Pad CBCM - LI (2.0 4.0) over PY
+load length - stub length = 22.07",Istub,Iload,Vp,Vn,Vpwr,Vgnd,,,,,,,4
+,10,,,"Dense Pad CBCM - M1 (2.0 4.0) over LI
+load length - stub length = 22.07",,,,,,,Istub,Iload,Vp,Vn,Vpwr,Vgnd,
+7722b,,,,"MM4: w=0.3, s= 0.3, load length 23.42 - stub length 5.335 = 18.085, 11 signal lines",istub_1,iload_1,vp_1,vn_1,vpwr_1,,,,,,,,4
+,,,,"MM4: w=2.0, s=4.0, load length 22.52 - stub length 4.435 = 18.085, 1 signal line",,,,,,,istub_2,iload_2,vp_2,vn_2,vpwr_2,,
+7727,,,,"Dense Pad CBCM - M2 (2.0 4.0) over M1 - S8T
+load length - stub length = 22.07",Istub,Iload,Vp,Vn,Vpwr,Vgnd,,,,,,,4
+,10,,,"Dense Pad CBCM - M3 (2.0 4.0) over M2 -  S8T
+load length - stub length = 22.07",,,,,,,Istub,Iload,Vp,Vn,Vpwr,Vgnd,
+7786,6,,,NV Latch Tri-Gates,,,,,,,,,,,,,4
+,,,,"SONOS W/L=1.0/0.5, NHV W/L=1.0/0.5 (prg) and 0.42//0.5um (prg_l)",Psub,,source,Vspw,VB,test_n,test_p,VA,prg_l,Vneg,prg,Dnwell,
+7821,,,,S8P - WM3/RSM3 WM4/RSM4 Routed around pads,,,,,,,,,,,,,4
+,,,,WM3 - 0.3u Wide; 398.2u Long,I,I,,V,,V,,,,,,,
+,,,,RSM3 - 1.5u Wide; 486.3u Long,I,I,V,,V,,,,,,,,
+,,,,WM4 - 0.3u Wide; 398.2u Long,,,,,,,I,I,,V,,V,
+,,,,RSM4 - 1.5u Wide; 486.3u Long,,,,,,,I,I,V,,V,,
+8008,,nfet_01v8,nshort,nshort; w=25.000; l=25.000; m=1;in DNW,b,g,s,d,,,,,,,,,4
+,,nfet_01v8,nshort,nshort; w=7.000; l=8.000; m=1;in DNW,b,g,,s,d,,,,,,,,
+,,nfet_01v8,nshort,nshort; w=25.000; l=0.150; m=1;in DNW,b,g,,,s,d,,,,,,,
+,,nfet_01v8,nshort,nshort; w=7.000; l=0.150; m=1;in DNW,b,g,,,,s,d,,,,,,
+,,nfet_01v8,nshort,nshort; w=0.420; l=25.000; m=1;in DNW,b,g,,,,,s,d,,,,,
+,,nfet_01v8,nshort,nshort; w=0.420; l=20.000; m=1;in DNW,b,g,,,,,,s,d,,,,
+,,nfet_01v8,nshort,nshort; w=0.420; l=0.150; m=1;in DNW,b,g,,,,,,,s,d,,,
+,,nfet_01v8,nshort,nshort; w=0.420; l=0.150; m=1;in DNW,b,g,,,,,,,,s,d,,
+,,nfet_01v8,nshort,nshort; w=0.420; l=0.150; m=1;in DNW,b,g,,,,,,,,,s,d,
+8043,,nfet_g5v0d10v5,nhv,nhv; w=5.000; l=0.500; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=0.420; l=0.450; m=1;,b,g,,s,d,,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.750; l=0.450; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.000; l=0.450; m=1;,b,g,,,,s,d,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.500; l=0.450; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=3.000; l=0.450; m=1;,b,g,,,,,,s,d,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=5.000; l=0.450; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=7.000; l=0.450; m=1;,b,g,,,,,,,,s,d,,
+,,nfet_g5v0d10v5,nhv,nhv; w=20.000; l=0.450; m=1;,b,g,,,,,,,,,s,d,
+8044,,pfet_g5v0d10v5,phv,phv; w=5.000; l=0.500; m=1;,b,g,s,d,,,,,,,,,4
+,,pfet_g5v0d10v5,phv,phv; w=0.420; l=0.450; m=1;,b,g,,s,d,,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.750; l=0.450; m=1;,b,g,,,s,d,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.000; l=0.450; m=1;,b,g,,,,s,d,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.500; l=0.450; m=1;,b,g,,,,,s,d,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=3.000; l=0.450; m=1;,b,g,,,,,,s,d,,,,
+,,pfet_g5v0d10v5,phv,phv; w=5.000; l=0.450; m=1;,b,g,,,,,,,s,d,,,
+,,pfet_g5v0d10v5,phv,phv; w=7.000; l=0.450; m=1;,b,g,,,,,,,,s,d,,
+,,pfet_g5v0d10v5,phv,phv; w=20.000; l=0.450; m=1;,b,g,,,,,,,,,s,d,
+8050,,nfet_g5v0d10v5,nhv,nhv; w=25.000; l=25.000; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=7.000; l=8.000; m=1;,b,g,,s,d,,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=25.000; l=0.500; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=25.000; l=0.500; m=1;,b,g,,,,s,d,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.420; l=25.000; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.420; l=20.000; m=1;,b,g,,,,,,s,d,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.420; l=0.500; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.420; l=0.500; m=1;,b,g,,,,,,,,s,d,,
+,,nfet_g5v0d10v5,nhv,nhv; w=25.000; l=8.000; m=1;,b,g,,,,,,,,,s,d,
+8053,,nfet_g5v0d10v5,nhv,nhv; w=5.000; l=0.450; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=0.420; l=0.400; m=1;,b,g,,s,d,,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.750; l=0.400; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.000; l=0.400; m=1;,b,g,,,,s,d,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.500; l=0.400; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=3.000; l=0.400; m=1;,b,g,,,,,,s,d,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=5.000; l=0.400; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=7.000; l=0.400; m=1;,b,g,,,,,,,,s,d,,
+,,nfet_g5v0d10v5,nhv,nhv; w=20.000; l=0.400; m=1;,b,g,,,,,,,,,s,d,
+8054,,pfet_g5v0d10v5,phv,phv; w=5.000; l=0.450; m=1;,b,g,s,d,,,,,,,,,4
+,,pfet_g5v0d10v5,phv,phv; w=0.420; l=0.400; m=1;,b,g,,s,d,,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.750; l=0.400; m=1;,b,g,,,s,d,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.000; l=0.400; m=1;,b,g,,,,s,d,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.500; l=0.400; m=1;,b,g,,,,,s,d,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=3.000; l=0.400; m=1;,b,g,,,,,,s,d,,,,
+,,pfet_g5v0d10v5,phv,phv; w=5.000; l=0.400; m=1;,b,g,,,,,,,s,d,,,
+,,pfet_g5v0d10v5,phv,phv; w=7.000; l=0.400; m=1;,b,g,,,,,,,,s,d,,
+,,pfet_g5v0d10v5,phv,phv; w=20.000; l=0.400; m=1;,b,g,,,,,,,,,s,d,
+8063,,nfet_g5v0d10v5,nhv,nhv; w=5.000; l=0.300; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=0.420; l=0.350; m=1;,b,g,,s,d,,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.750; l=0.350; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.000; l=0.350; m=1;,b,g,,,,s,d,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.500; l=0.350; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=3.000; l=0.350; m=1;,b,g,,,,,,s,d,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=5.000; l=0.350; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=7.000; l=0.350; m=1;,b,g,,,,,,,,s,d,,
+,,nfet_g5v0d10v5,nhv,nhv; w=20.000; l=0.350; m=1;,b,g,,,,,,,,,s,d,
+8064,,pfet_g5v0d10v5,phv,phv; w=5.000; l=0.300; m=1;,b,g,s,d,,,,,,,,,4
+,,pfet_g5v0d10v5,phv,phv; w=0.420; l=0.350; m=1;,b,g,,s,d,,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.750; l=0.350; m=1;,b,g,,,s,d,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.000; l=0.350; m=1;,b,g,,,,s,d,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.500; l=0.350; m=1;,b,g,,,,,s,d,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=3.000; l=0.350; m=1;,b,g,,,,,,s,d,,,,
+,,pfet_g5v0d10v5,phv,phv; w=5.000; l=0.350; m=1;,b,g,,,,,,,s,d,,,
+,,pfet_g5v0d10v5,phv,phv; w=7.000; l=0.350; m=1;,b,g,,,,,,,,s,d,,
+,,pfet_g5v0d10v5,phv,phv; w=20.000; l=0.350; m=1;,b,g,,,,,,,,,s,d,
+8363,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=20.0; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=20.0; l=0.5; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.0; l=1.0; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.0; l=2.0; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.0; l=4.0; m=1;,b,g,,,,,,,,,s,d,
+8364,,pfet_g5v0d10v5,phv,phv; w=0.42; l=20.0; m=1;,b,g,d,s,,,,,,,,,4
+,,pfet_g5v0d10v5,phv,phv; w=20.0; l=0.5; m=1;,b,g,,,d,s,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.0; l=1.0; m=1;,b,g,,,,,d,s,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.0; l=2.0; m=1;,b,g,,,,,,,d,s,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.0; l=4.0; m=1;,b,g,,,,,,,,,d,s,
+8389,,nfet_g5v0d10v5,nhv,nhv; w=3.0; l=0.5; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=7.0; l=8.0; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=7.0; l=0.5; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=8.0; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.5; m=1;,b,g,,,,,,,,,s,d,
+8390,,nfet_05v0_nvt,nhvnative,nhvnative; w=10.0; l=0.9; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_05v0_nvt,nhvnative,nhvnative; w=1.0; l=25.0; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_05v0_nvt,nhvnative,nhvnative; w=0.42; l=0.9; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_05v0_nvt,nhvnative,nhvnative; w=10.0; l=4.0; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_05v0_nvt,nhvnative,nhvnative; w=1.0; l=4.0; m=1;,b,g,,,,,,,,,s,d,
+8391,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=8.0; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=0.42; l=1.0; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=0.42; l=0.15; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=0.84; l=0.15; m=1;,b,g,,,,,,,,,s,d,
+8392,,nfet_01v8,nshort,nshort; w=1.68; l=0.15; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_01v8,nshort,nshort; w=7.0; l=8.0; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.15; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_01v8,nshort,nshort; w=0.42; l=8.0; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_01v8,nshort,nshort; w=0.42; l=0.15; m=1;,b,g,,,,,,,,,s,d,
+8393,,nfet_03v3_nvt,ntvnative,ntvnative; w=10.0; l=0.5; m=1;,b,g,s,d,,,,,,,,,4
+,,nfet_03v3_nvt,ntvnative,ntvnative; w=0.42; l=0.5; m=1;,b,g,,,s,d,,,,,,,
+,,nfet_03v3_nvt,ntvnative,ntvnative; w=0.42; l=0.5; m=1;,b,g,,,,,s,d,,,,,
+,,nfet_03v3_nvt,ntvnative,ntvnative; w=0.42; l=0.5; m=1;,b,g,,,,,,,s,d,,,
+,,nfet_03v3_nvt,ntvnative,ntvnative; w=0.42; l=0.5; m=1;,b,g,,,,,,,,,s,d,
+8394,,pfet_01v8_hvt,phighvt,phighvt; w=1.68; l=0.15; m=1;,b,g,d,s,,,,,,,,,4
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=8.0; m=1;,b,g,,,d,s,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.15; m=1;,b,g,,,,,d,s,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=8.0; m=1;,b,g,,,,,,,d,s,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.15; m=1;,b,g,,,,,,,,,d,s,
+8395,,pfet_g5v0d10v5,phv,phv; w=3.0; l=0.5; m=1;,b,g,d,s,,,,,,,,,4
+,,pfet_g5v0d10v5,phv,phv; w=7.0; l=8.0; m=1;,b,g,,,d,s,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=7.0; l=0.5; m=1;,b,g,,,,,d,s,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=8.0; m=1;,b,g,,,,,,,d,s,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.5; m=1;,b,g,,,,,,,,,d,s,
+8396,,pfet_01v8_lvt,plowvt,plowvt; w=3.0; l=1.0; m=1;,b,g,d,s,,,,,,,,,4
+,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=8.0; m=1;,b,g,,,d,s,,,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=0.35; m=1;,b,g,,,,,d,s,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=8.0; m=1;,b,g,,,,,,,d,s,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.35; m=1;,b,g,,,,,,,,,d,s,
+8397,,pfet_01v8,pshort,pshort; w=1.68; l=0.15; m=1;,b,g,d,s,,,,,,,,,4
+,,pfet_01v8,pshort,pshort; w=7.0; l=8.0; m=1;,b,g,,,d,s,,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;,b,g,,,,,d,s,,,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=8.0; m=1;,b,g,,,,,,,d,s,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.15; m=1;,b,g,,,,,,,,,d,s,
+8404,3791956,pfet_01v8,pshort,pshort; w=7.0; l=0.18; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.18; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.18; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.18; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.18; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.18; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,,,,d,s,
+8405,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8,pshort,pshort; w=1.0; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8,pshort,pshort; w=1.0; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8,pshort,pshort; w=1.0; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8,pshort,pshort; w=1.0; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8,pshort,pshort; w=1.0; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8,pshort,pshort; w=1.0; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,,,,d,s,
+8407,,pfet_01v8,pshort,pshort; w=0.42; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.15; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.15; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8,pshort,pshort; w=0.42; l=0.15; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,,,,d,s,
+8413,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=1;prox_spc=0.42,b,g,d,s,,,,,,,,,4
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=1;prox_spc=0.62,b,g,,d,s,,,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.28,b,g,,,d,s,,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.32,b,g,,,,d,s,,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.42,b,g,,,,,d,s,,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.62,b,g,,,,,,d,s,,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=1.0,b,g,,,,,,,d,s,,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=1.5,b,g,,,,,,,,d,s,,
+,,pfet_01v8,pshort,pshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=2.0,b,g,,,,,,,,,d,s,
+8418,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.18; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.18; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.18; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.18; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.18; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.18; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,,,,d,s,
+8419,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.15; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.15; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=7.0; l=0.15; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=1.0; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=1.0; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=1.0; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=1.0; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=1.0; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=1.0; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,,,,d,s,
+8421,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.15; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.15; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8_hvt,phighvt,phighvt; w=0.42; l=0.15; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,,,,d,s,
+8426,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=0.35; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=0.35; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=0.35; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=0.35; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=0.35; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=7.0; l=0.35; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,,,,d,s,
+8429,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=1.0; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=1.0; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=1.0; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.35; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.35; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.35; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.35; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.35; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_01v8_lvt,plowvt,plowvt; w=0.42; l=0.35; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,,,,d,s,
+8434,,nfet_01v8,nshort,nshort; w=7.0; l=0.18; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,s,d,,,,,,,,,4
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.18; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,s,d,,,,,,,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.18; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,s,d,,,,,,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.18; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,s,d,,,,,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.18; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,s,d,,,,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.18; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,s,d,,,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,,,,s,d,,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,,,,s,d,,
+,,nfet_01v8,nshort,nshort; w=7.0; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,,,,s,d,
+8436,,nfet_01v8,nshort,nshort; w=1.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,s,d,,,,,,,,,4
+,,nfet_01v8,nshort,nshort; w=1.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,s,d,,,,,,,,
+,,nfet_01v8,nshort,nshort; w=1.0; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,s,d,,,,,,,
+,,nfet_01v8,nshort,nshort; w=1.0; l=0.15; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,s,d,,,,,,
+,,nfet_01v8,nshort,nshort; w=1.0; l=0.15; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,s,d,,,,,
+,,nfet_01v8,nshort,nshort; w=1.0; l=0.15; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,s,d,,,,
+,,nfet_01v8,nshort,nshort; w=0.42; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,,,,s,d,,,
+,,nfet_01v8,nshort,nshort; w=0.42; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,,,,s,d,,
+,,nfet_01v8,nshort,nshort; w=0.42; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,,,,s,d,
+8442,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.18; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,s,d,,,,,,,,,4
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.18; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,s,d,,,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.18; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,s,d,,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.18; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,s,d,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.18; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,s,d,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.18; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,s,d,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,,,,s,d,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,,,,s,d,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,,,,s,d,
+8444,,nfet_01v8_lvt,nlowvt,nlowvt; w=1.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,s,d,,,,,,,,,4
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=1.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,s,d,,,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=1.0; l=0.15; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,s,d,,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=1.0; l=0.15; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,s,d,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=1.0; l=0.15; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,s,d,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=1.0; l=0.15; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,s,d,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=0.42; l=1.0; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,,,,s,d,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=0.42; l=1.0; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,,,,s,d,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=0.42; l=1.0; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,,,,s,d,
+8451,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=1;prox_spc=0.42,b,g,s,d,,,,,,,,,4
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=1.11;sb=1.11;prox_count=1;prox_spc=0.62,b,g,,s,d,,,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.28,b,g,,,s,d,,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.32,b,g,,,,s,d,,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.42,b,g,,,,,s,d,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=0.62,b,g,,,,,,s,d,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=1.0,b,g,,,,,,,s,d,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=1.5,b,g,,,,,,,,s,d,,
+,,nfet_01v8_lvt,nlowvt,nlowvt; w=7.0; l=0.15; m=1;sa=2.5;sb=2.5;prox_count=1;prox_spc=2.0,b,g,,,,,,,,,s,d,
+8456,,pfet_g5v0d10v5,phv,phv; w=5.0; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_g5v0d10v5,phv,phv; w=5.0; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=5.0; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=5.0; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=5.0; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=5.0; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.0; l=0.5; m=1;sa=0.265;sb=2.5;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_g5v0d10v5,phv,phv; w=1.0; l=0.5; m=1;sa=0.265;sb=0.35;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_g5v0d10v5,phv,phv; w=1.0; l=0.5; m=1;sa=0.265;sb=0.48;prox_count=0,b,g,,,,,,,,,d,s,
+8459,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.8; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,d,s,,,,,,,,,4
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.8; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,d,s,,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.8; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,d,s,,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,d,s,,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,d,s,,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,d,s,,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,,,,d,s,,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,,,,d,s,,
+,,pfet_g5v0d10v5,phv,phv; w=0.42; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,,,,d,s,
+8466,,nfet_g5v0d10v5,nhv,nhv; w=5.0; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=5.0; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,s,d,,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=5.0; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=5.0; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,s,d,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=5.0; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=5.0; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,s,d,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.0; l=0.5; m=1;sa=0.265;sb=2.5;prox_count=0,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.0; l=0.5; m=1;sa=0.265;sb=0.35;prox_count=0,b,g,,,,,,,,s,d,,
+,,nfet_g5v0d10v5,nhv,nhv; w=1.0; l=0.5; m=1;sa=0.265;sb=0.48;prox_count=0,b,g,,,,,,,,,s,d,
+8469,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.8; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,s,d,,,,,,,,,4
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.8; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,s,d,,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.8; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,s,d,,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.5; m=1;sa=2.5;sb=2.5;prox_count=0,b,g,,,,s,d,,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.5; m=1;sa=1.11;sb=1.11;prox_count=0,b,g,,,,,s,d,,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.5; m=1;sa=0.68;sb=0.68;prox_count=0,b,g,,,,,,s,d,,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.5; m=1;sa=0.48;sb=0.48;prox_count=0,b,g,,,,,,,s,d,,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.5; m=1;sa=0.35;sb=0.35;prox_count=0,b,g,,,,,,,,s,d,,
+,,nfet_g5v0d10v5,nhv,nhv; w=0.42; l=0.5; m=1;sa=0.265;sb=0.265;prox_count=0,b,g,,,,,,,,,s,d,
+8649,,nfet_01v8_lvt,nlowvt,nlowvt w/l=0.30/0.15 Mismatch (FET B from 8x8 array),Substr,,,GateB,,SourceB,DrainB,,,,,,4
+,,nfet_01v8_lvt,nlowvt,nlowvt w/l=0.30/0.15 Mismatch (FET A from 8x8 array),Substr,,,,GateA,SourceA,,DrainA,,,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt w/l=0.30/0.15 singe FET from 8x8 array,Substr,Gate,,,,,,,Source,Drain,,,
+,,nfet_01v8_lvt,nlowvt,nlowvt w/l=0.30/0.15 (standard modeling layout),Substr,Gate,,,,,,,,,Source,Drain,
+8701,,nfet_01v8,nshort,nshort; w=0.65; l=0.25; m=1; contact-gate=0.050um,b,g,s,d,,,,,,,,,4
+,,nfet_01v8,nshort,nshort; w=0.42; l=0.5; m=1; contact-gate=0.050um,b,g,,,s,d,,,,,,,
+,,nfet_01v8,nshort,nshort; w=0.65; l=0.5; m=1; contact-gate=0.050um,b,g,,,,,s,d,,,,,
+,,nfet_01v8,nshort,nshort; w=0.36; l=0.15; m=1; contact-gate=0.050um,b,g,,,,,,,s,d,,,
+,,nfet_01v8,nshort,nshort; w=0.39; l=0.15; m=1; contact-gate=0.050um,b,g,,,,,,,,,s,d,
